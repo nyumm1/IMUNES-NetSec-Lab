@@ -1,0 +1,295 @@
+{
+  "options": {
+    "version": "2",
+    "IPv4autoAssign": "0",
+    "IPv6autoAssign": "0"
+  },
+  "gui": {
+    "canvases": {
+      "c0": {
+        "name": "Canvas0"
+      }
+    },
+    "nodes": {
+      "n0": {
+        "label": "DHCPServer",
+        "canvas": "c0",
+        "iconcoords": "192 168",
+        "labelcoords": "192 204"
+      },
+      "n1": {
+        "label": "switch1",
+        "canvas": "c0",
+        "iconcoords": "336 312",
+        "labelcoords": "336 335"
+      },
+      "n2": {
+        "label": "router1",
+        "canvas": "c0",
+        "iconcoords": "552 240",
+        "labelcoords": "552 265"
+      },
+      "n3": {
+        "label": "pc1",
+        "canvas": "c0",
+        "iconcoords": "120 384",
+        "labelcoords": "120 415"
+      },
+      "n4": {
+        "label": "pc2",
+        "canvas": "c0",
+        "iconcoords": "336 456",
+        "labelcoords": "336 487"
+      },
+      "n5": {
+        "label": "pc3",
+        "canvas": "c0",
+        "iconcoords": "552 432",
+        "labelcoords": "552 463"
+      },
+      "n6": {
+        "label": "pc4",
+        "canvas": "c0",
+        "iconcoords": "816 120",
+        "labelcoords": "816 151"
+      }
+    },
+    "links": {
+      "l0": {
+        "peers": "n1 n0"
+      },
+      "l1": {
+        "peers": "n1 n3"
+      },
+      "l2": {
+        "peers": "n1 n4"
+      },
+      "l3": {
+        "peers": "n1 n5"
+      },
+      "l4": {
+        "peers": "n1 n2"
+      },
+      "l5": {
+        "peers": "n2 n6"
+      }
+    }
+  },
+  "nodes": {
+    "n0": {
+      "type": "host",
+      "name": "DHCPServer",
+      "auto_default_routes": "enabled",
+      "ifaces": {
+        "ifc0": {
+          "type": "lo",
+          "name": "lo0",
+          "ipv4_addrs": [
+            "127.0.0.1/8"
+          ],
+          "ipv6_addrs": [
+            "::1/128"
+          ]
+        },
+        "ifc1": {
+          "type": "phys",
+          "name": "eth0",
+          "link": "l0",
+          "mac": "42:00:aa:00:00:00",
+          "ipv4_addrs": [
+            "10.0.10.10/24"
+          ]
+        }
+      }
+    },
+    "n1": {
+      "type": "lanswitch",
+      "name": "switch1",
+      "ifaces": {
+        "ifc0": {
+          "type": "phys",
+          "name": "e0",
+          "link": "l0"
+        },
+        "ifc1": {
+          "type": "phys",
+          "name": "e1",
+          "link": "l1"
+        },
+        "ifc2": {
+          "type": "phys",
+          "name": "e2",
+          "link": "l2"
+        },
+        "ifc3": {
+          "type": "phys",
+          "name": "e3",
+          "link": "l3"
+        },
+        "ifc4": {
+          "type": "phys",
+          "name": "e4",
+          "link": "l4"
+        }
+      }
+    },
+    "n2": {
+      "type": "router",
+      "name": "router1",
+      "model": "frr",
+      "router_config": "rip 1 ripng 1 ospf 0 ospf6 0 bgp 0 ldp 0",
+      "auto_default_routes": "enabled",
+      "ifaces": {
+        "ifc0": {
+          "type": "lo",
+          "name": "lo0",
+          "ipv4_addrs": [
+            "127.0.0.1/8"
+          ],
+          "ipv6_addrs": [
+            "::1/128"
+          ]
+        },
+        "ifc1": {
+          "type": "phys",
+          "name": "eth0",
+          "link": "l4",
+          "mac": "42:00:aa:00:00:04",
+          "ipv4_addrs": [
+            "10.0.10.1/24"
+          ]
+        },
+        "ifc2": {
+          "type": "phys",
+          "name": "eth1",
+          "link": "l5",
+          "mac": "42:00:aa:00:00:05",
+          "ipv4_addrs": [
+            "10.0.0.1/24"
+          ]
+        }
+      }
+    },
+    "n3": {
+      "type": "pc",
+      "name": "pc1",
+      "auto_default_routes": "enabled",
+      "ifaces": {
+        "ifc0": {
+          "type": "lo",
+          "name": "lo0",
+          "ipv4_addrs": [
+            "127.0.0.1/8"
+          ],
+          "ipv6_addrs": [
+            "::1/128"
+          ]
+        },
+        "ifc1": {
+          "type": "phys",
+          "name": "eth0",
+          "link": "l1",
+          "mac": "42:00:aa:00:00:01"
+        }
+      }
+    },
+    "n4": {
+      "type": "pc",
+      "name": "pc2",
+      "auto_default_routes": "enabled",
+      "ifaces": {
+        "ifc0": {
+          "type": "lo",
+          "name": "lo0",
+          "ipv4_addrs": [
+            "127.0.0.1/8"
+          ],
+          "ipv6_addrs": [
+            "::1/128"
+          ]
+        },
+        "ifc1": {
+          "type": "phys",
+          "name": "eth0",
+          "link": "l2",
+          "mac": "42:00:aa:00:00:02"
+        }
+      }
+    },
+    "n5": {
+      "type": "pc",
+      "name": "pc3",
+      "auto_default_routes": "enabled",
+      "ifaces": {
+        "ifc0": {
+          "type": "lo",
+          "name": "lo0",
+          "ipv4_addrs": [
+            "127.0.0.1/8"
+          ],
+          "ipv6_addrs": [
+            "::1/128"
+          ]
+        },
+        "ifc1": {
+          "type": "phys",
+          "name": "eth0",
+          "link": "l3",
+          "mac": "42:00:aa:00:00:03"
+        }
+      }
+    },
+    "n6": {
+      "type": "pc",
+      "name": "pc4",
+      "auto_default_routes": "enabled",
+      "ifaces": {
+        "ifc0": {
+          "type": "lo",
+          "name": "lo0",
+          "ipv4_addrs": [
+            "127.0.0.1/8"
+          ],
+          "ipv6_addrs": [
+            "::1/128"
+          ]
+        },
+        "ifc1": {
+          "type": "phys",
+          "name": "eth0",
+          "link": "l5",
+          "mac": "42:00:aa:00:00:06",
+          "ipv4_addrs": [
+            "10.0.0.2/24"
+          ]
+        }
+      }
+    }
+  },
+  "links": {
+    "l0": {
+      "peers": "n1 n0",
+      "peers_ifaces": "ifc0 ifc1"
+    },
+    "l1": {
+      "peers": "n1 n3",
+      "peers_ifaces": "ifc1 ifc1"
+    },
+    "l2": {
+      "peers": "n1 n4",
+      "peers_ifaces": "ifc2 ifc1"
+    },
+    "l3": {
+      "peers": "n1 n5",
+      "peers_ifaces": "ifc3 ifc1"
+    },
+    "l4": {
+      "peers": "n1 n2",
+      "peers_ifaces": "ifc4 ifc1"
+    },
+    "l5": {
+      "peers": "n2 n6",
+      "peers_ifaces": "ifc2 ifc1"
+    }
+  }
+}
