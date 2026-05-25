@@ -9,3 +9,6 @@ Finished up the DHCP Test folder with a working test, next up will be DNS where 
 
 23/05/2026
 Managed to get DNS to work on the full topology, tried again to setup a network wide DHCP but again to no awail. Changed the routing protocol to OSPF and started using frr instead of quagga for routers but I still think that in general it doesn't really change a whole lot. Didn't really have the time to upload all of the changes, but my current priority would be to upload a DNS test and then based on that refine the currently Claude generated DNS config on the whole office network to something I made myself.
+
+25/05/2026
+Got DNSTest to work and actually learned a lot about how to configure DNS! Next challenge is the same as the one labeled before: refine the current DNS config of the office myself :)
