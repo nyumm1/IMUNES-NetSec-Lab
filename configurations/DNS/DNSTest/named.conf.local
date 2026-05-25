@@ -1,0 +1,29 @@
+zone "lab.lan" {
+        type master;
+        file "/etc/bind/zones/db.lab.lan";
+};
+
+zone "0.0.10.in-addr.arpa" {
+	type master;
+	file "/etc/bind/zones/db.reverse.0";
+};
+zone "4.0.10.in-addr.arpa" {
+	type master;
+	file "/etc/bind/zones/db.reverse.4";
+};
+zone "5.0.10.in-addr.arpa" {
+	type master;
+	file "/etc/bind/zones/db.reverse.5";
+};
+zone "7.0.10.in-addr.arpa" {
+	type master;
+	file "/etc/bind/zones/db.reverse.7";
+};
+zone "8.0.10.in-addr.arpa" {
+	type master;
+	file "/etc/bind/zones/db.reverse.8";
+};
+zone "9.0.10.in-addr.arpa" {
+	type master;
+	file "/etc/bind/zones/db.reverse.9";
+};
