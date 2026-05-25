@@ -1,0 +1,45 @@
+$TTL 300
+
+@ IN SOA dns-server.lab.lan. admin.lab.lan (
+	2026052401 ; serial
+	300 ; refresh
+	60 ; retry
+	3600 ; expire
+	300 ) ; negativeTTL
+
+@ IN NS host1.lab.lan.
+
+host1 IN A 10.0.0.10
+dns-server IN CNAME host1.lab.lan.
+
+;router 1
+router1-eth0 IN A 10.0.0.1
+router1-eth1 IN A 10.0.1.1
+router1-eth2 IN A 10.0.2.1
+
+;router 2
+router2-eth0 IN A 10.0.2.2
+router2-eth1 IN A 10.0.6.1
+router2-eth2 IN A 10.0.9.1
+
+;router 3
+router3-eth0 IN A 10.0.1.2
+router3-eth1 IN A 10.0.3.1
+router3-eth2 IN A 10.0.4.1
+
+;router 4
+router4-eth0 IN A 10.0.3.2
+router4-eth1 IN A 10.0.5.1
+
+;router 5
+router5-eth0 IN A 10.0.6.2
+router5-eth1 IN A 10.0.7.1
+router5-eth2 IN A 10.0.8.1
+
+;pc 1-6
+pc1 IN A 10.0.5.20
+pc2 IN A 10.0.4.20
+pc3 IN A 10.0.4.21
+pc4 IN A 10.0.8.20
+pc5 IN A 10.0.7.20
+pc6 IN A 10.0.9.20
