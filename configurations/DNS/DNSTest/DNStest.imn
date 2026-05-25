@@ -1,0 +1,637 @@
+{
+  "options": {
+    "version": "2",
+    "IPv6autoAssign": "0"
+  },
+  "gui": {
+    "canvases": {
+      "c0": {
+        "name": "Canvas0",
+        "size": "1870 930"
+      }
+    },
+    "nodes": {
+      "n0": {
+        "label": "host1",
+        "canvas": "c0",
+        "iconcoords": "144 432",
+        "labelcoords": "144 468"
+      },
+      "n1": {
+        "label": "router1",
+        "canvas": "c0",
+        "iconcoords": "528 432",
+        "labelcoords": "528 457"
+      },
+      "n2": {
+        "label": "router2",
+        "canvas": "c0",
+        "iconcoords": "792 528",
+        "labelcoords": "792 553"
+      },
+      "n3": {
+        "label": "router3",
+        "canvas": "c0",
+        "iconcoords": "792 312",
+        "labelcoords": "792 337"
+      },
+      "n4": {
+        "label": "router4",
+        "canvas": "c0",
+        "iconcoords": "792 96",
+        "labelcoords": "792 121"
+      },
+      "n5": {
+        "label": "router5",
+        "canvas": "c0",
+        "iconcoords": "1104 528",
+        "labelcoords": "1104 553"
+      },
+      "n7": {
+        "label": "pc1",
+        "canvas": "c0",
+        "iconcoords": "1128 96",
+        "labelcoords": "1128 127"
+      },
+      "n8": {
+        "label": "pc2",
+        "canvas": "c0",
+        "iconcoords": "1488 168",
+        "labelcoords": "1488 199"
+      },
+      "n9": {
+        "label": "pc3",
+        "canvas": "c0",
+        "iconcoords": "1536 408",
+        "labelcoords": "1536 439"
+      },
+      "n10": {
+        "label": "pc4",
+        "canvas": "c0",
+        "iconcoords": "1560 576",
+        "labelcoords": "1560 607"
+      },
+      "n11": {
+        "label": "pc5",
+        "canvas": "c0",
+        "iconcoords": "1440 696",
+        "labelcoords": "1440 727"
+      },
+      "n12": {
+        "label": "pc6",
+        "canvas": "c0",
+        "iconcoords": "1104 792",
+        "labelcoords": "1104 823"
+      },
+      "n6": {
+        "label": "switch1",
+        "canvas": "c0",
+        "iconcoords": "1104 312",
+        "labelcoords": "1104 335"
+      },
+      "n13": {
+        "label": "switch2",
+        "canvas": "c0",
+        "iconcoords": "792 792",
+        "labelcoords": "792 815"
+      }
+    },
+    "links": {
+      "l0": {
+        "peers": "n0 n1"
+      },
+      "l1": {
+        "peers": "n1 n3"
+      },
+      "l2": {
+        "peers": "n1 n2"
+      },
+      "l3": {
+        "peers": "n3 n4"
+      },
+      "l4": {
+        "peers": "n3 n6"
+      },
+      "l5": {
+        "peers": "n6 n8"
+      },
+      "l6": {
+        "peers": "n6 n9"
+      },
+      "l7": {
+        "peers": "n4 n7"
+      },
+      "l8": {
+        "peers": "n2 n5"
+      },
+      "l9": {
+        "peers": "n5 n11"
+      },
+      "l10": {
+        "peers": "n5 n10"
+      },
+      "l11": {
+        "peers": "n2 n13"
+      },
+      "l12": {
+        "peers": "n13 n12"
+      }
+    }
+  },
+  "nodes": {
+    "n0": {
+      "type": "host",
+      "name": "host1",
+      "auto_default_routes": "enabled",
+      "ifaces": {
+        "ifc0": {
+          "type": "lo",
+          "name": "lo0",
+          "ipv4_addrs": [
+            "127.0.0.1/8"
+          ],
+          "ipv6_addrs": [
+            "::1/128"
+          ]
+        },
+        "ifc1": {
+          "type": "phys",
+          "name": "eth0",
+          "link": "l0",
+          "ipv4_addrs": [
+            "10.0.0.10/24"
+          ],
+          "mac": "42:00:aa:00:00:00"
+        }
+      }
+    },
+    "n1": {
+      "type": "router",
+      "name": "router1",
+      "model": "frr",
+      "router_config": "rip 1 ripng 1 ospf 0 ospf6 0 bgp 0 ldp 0",
+      "auto_default_routes": "enabled",
+      "ifaces": {
+        "ifc0": {
+          "type": "lo",
+          "name": "lo0",
+          "ipv4_addrs": [
+            "127.0.0.1/8"
+          ],
+          "ipv6_addrs": [
+            "::1/128"
+          ]
+        },
+        "ifc1": {
+          "type": "phys",
+          "name": "eth0",
+          "link": "l0",
+          "ipv4_addrs": [
+            "10.0.0.1/24"
+          ],
+          "mac": "42:00:aa:00:00:01"
+        },
+        "ifc2": {
+          "type": "phys",
+          "name": "eth1",
+          "link": "l1",
+          "ipv4_addrs": [
+            "10.0.1.1/24"
+          ],
+          "mac": "42:00:aa:00:00:02"
+        },
+        "ifc3": {
+          "type": "phys",
+          "name": "eth2",
+          "link": "l2",
+          "ipv4_addrs": [
+            "10.0.2.1/24"
+          ],
+          "mac": "42:00:aa:00:00:04"
+        }
+      }
+    },
+    "n2": {
+      "type": "router",
+      "name": "router2",
+      "model": "frr",
+      "router_config": "rip 1 ripng 1 ospf 0 ospf6 0 bgp 0 ldp 0",
+      "auto_default_routes": "enabled",
+      "ifaces": {
+        "ifc0": {
+          "type": "lo",
+          "name": "lo0",
+          "ipv4_addrs": [
+            "127.0.0.1/8"
+          ],
+          "ipv6_addrs": [
+            "::1/128"
+          ]
+        },
+        "ifc1": {
+          "type": "phys",
+          "name": "eth0",
+          "link": "l2",
+          "ipv4_addrs": [
+            "10.0.2.2/24"
+          ],
+          "mac": "42:00:aa:00:00:05"
+        },
+        "ifc2": {
+          "type": "phys",
+          "name": "eth1",
+          "link": "l8",
+          "ipv4_addrs": [
+            "10.0.6.1/24"
+          ],
+          "mac": "42:00:aa:00:00:0d"
+        },
+        "ifc3": {
+          "type": "phys",
+          "name": "eth2",
+          "link": "l11",
+          "ipv4_addrs": [
+            "10.0.9.1/24"
+          ],
+          "mac": "42:00:aa:00:00:13"
+        }
+      }
+    },
+    "n3": {
+      "type": "router",
+      "name": "router3",
+      "model": "frr",
+      "router_config": "rip 1 ripng 1 ospf 0 ospf6 0 bgp 0 ldp 0",
+      "auto_default_routes": "enabled",
+      "ifaces": {
+        "ifc0": {
+          "type": "lo",
+          "name": "lo0",
+          "ipv4_addrs": [
+            "127.0.0.1/8"
+          ],
+          "ipv6_addrs": [
+            "::1/128"
+          ]
+        },
+        "ifc1": {
+          "type": "phys",
+          "name": "eth0",
+          "link": "l1",
+          "ipv4_addrs": [
+            "10.0.1.2/24"
+          ],
+          "mac": "42:00:aa:00:00:03"
+        },
+        "ifc2": {
+          "type": "phys",
+          "name": "eth1",
+          "link": "l3",
+          "ipv4_addrs": [
+            "10.0.3.1/24"
+          ],
+          "mac": "42:00:aa:00:00:06"
+        },
+        "ifc3": {
+          "type": "phys",
+          "name": "eth2",
+          "link": "l4",
+          "ipv4_addrs": [
+            "10.0.4.1/24"
+          ],
+          "mac": "42:00:aa:00:00:08"
+        }
+      }
+    },
+    "n4": {
+      "type": "router",
+      "name": "router4",
+      "model": "frr",
+      "router_config": "rip 1 ripng 1 ospf 0 ospf6 0 bgp 0 ldp 0",
+      "auto_default_routes": "enabled",
+      "ifaces": {
+        "ifc0": {
+          "type": "lo",
+          "name": "lo0",
+          "ipv4_addrs": [
+            "127.0.0.1/8"
+          ],
+          "ipv6_addrs": [
+            "::1/128"
+          ]
+        },
+        "ifc1": {
+          "type": "phys",
+          "name": "eth0",
+          "link": "l3",
+          "ipv4_addrs": [
+            "10.0.3.2/24"
+          ],
+          "mac": "42:00:aa:00:00:07"
+        },
+        "ifc2": {
+          "type": "phys",
+          "name": "eth1",
+          "link": "l7",
+          "ipv4_addrs": [
+            "10.0.5.1/24"
+          ],
+          "mac": "42:00:aa:00:00:0b"
+        }
+      }
+    },
+    "n5": {
+      "type": "router",
+      "name": "router5",
+      "model": "frr",
+      "router_config": "rip 1 ripng 1 ospf 0 ospf6 0 bgp 0 ldp 0",
+      "auto_default_routes": "enabled",
+      "ifaces": {
+        "ifc0": {
+          "type": "lo",
+          "name": "lo0",
+          "ipv4_addrs": [
+            "127.0.0.1/8"
+          ],
+          "ipv6_addrs": [
+            "::1/128"
+          ]
+        },
+        "ifc1": {
+          "type": "phys",
+          "name": "eth0",
+          "link": "l8",
+          "ipv4_addrs": [
+            "10.0.6.2/24"
+          ],
+          "mac": "42:00:aa:00:00:0e"
+        },
+        "ifc2": {
+          "type": "phys",
+          "name": "eth1",
+          "link": "l9",
+          "ipv4_addrs": [
+            "10.0.7.1/24"
+          ],
+          "mac": "42:00:aa:00:00:0f"
+        },
+        "ifc3": {
+          "type": "phys",
+          "name": "eth2",
+          "link": "l10",
+          "ipv4_addrs": [
+            "10.0.8.1/24"
+          ],
+          "mac": "42:00:aa:00:00:11"
+        }
+      }
+    },
+    "n7": {
+      "type": "pc",
+      "name": "pc1",
+      "auto_default_routes": "enabled",
+      "ifaces": {
+        "ifc0": {
+          "type": "lo",
+          "name": "lo0",
+          "ipv4_addrs": [
+            "127.0.0.1/8"
+          ],
+          "ipv6_addrs": [
+            "::1/128"
+          ]
+        },
+        "ifc1": {
+          "type": "phys",
+          "name": "eth0",
+          "link": "l7",
+          "ipv4_addrs": [
+            "10.0.5.20/24"
+          ],
+          "mac": "42:00:aa:00:00:0c"
+        }
+      }
+    },
+    "n8": {
+      "type": "pc",
+      "name": "pc2",
+      "auto_default_routes": "enabled",
+      "ifaces": {
+        "ifc0": {
+          "type": "lo",
+          "name": "lo0",
+          "ipv4_addrs": [
+            "127.0.0.1/8"
+          ],
+          "ipv6_addrs": [
+            "::1/128"
+          ]
+        },
+        "ifc1": {
+          "type": "phys",
+          "name": "eth0",
+          "link": "l5",
+          "ipv4_addrs": [
+            "10.0.4.20/24"
+          ],
+          "mac": "42:00:aa:00:00:09"
+        }
+      }
+    },
+    "n9": {
+      "type": "pc",
+      "name": "pc3",
+      "auto_default_routes": "enabled",
+      "ifaces": {
+        "ifc0": {
+          "type": "lo",
+          "name": "lo0",
+          "ipv4_addrs": [
+            "127.0.0.1/8"
+          ],
+          "ipv6_addrs": [
+            "::1/128"
+          ]
+        },
+        "ifc1": {
+          "type": "phys",
+          "name": "eth0",
+          "link": "l6",
+          "ipv4_addrs": [
+            "10.0.4.21/24"
+          ],
+          "mac": "42:00:aa:00:00:0a"
+        }
+      }
+    },
+    "n10": {
+      "type": "pc",
+      "name": "pc4",
+      "auto_default_routes": "enabled",
+      "ifaces": {
+        "ifc0": {
+          "type": "lo",
+          "name": "lo0",
+          "ipv4_addrs": [
+            "127.0.0.1/8"
+          ],
+          "ipv6_addrs": [
+            "::1/128"
+          ]
+        },
+        "ifc1": {
+          "type": "phys",
+          "name": "eth0",
+          "link": "l10",
+          "ipv4_addrs": [
+            "10.0.8.20/24"
+          ],
+          "mac": "42:00:aa:00:00:12"
+        }
+      }
+    },
+    "n11": {
+      "type": "pc",
+      "name": "pc5",
+      "auto_default_routes": "enabled",
+      "ifaces": {
+        "ifc0": {
+          "type": "lo",
+          "name": "lo0",
+          "ipv4_addrs": [
+            "127.0.0.1/8"
+          ],
+          "ipv6_addrs": [
+            "::1/128"
+          ]
+        },
+        "ifc1": {
+          "type": "phys",
+          "name": "eth0",
+          "link": "l9",
+          "ipv4_addrs": [
+            "10.0.7.20/24"
+          ],
+          "mac": "42:00:aa:00:00:10"
+        }
+      }
+    },
+    "n12": {
+      "type": "pc",
+      "name": "pc6",
+      "auto_default_routes": "enabled",
+      "ifaces": {
+        "ifc0": {
+          "type": "lo",
+          "name": "lo0",
+          "ipv4_addrs": [
+            "127.0.0.1/8"
+          ],
+          "ipv6_addrs": [
+            "::1/128"
+          ]
+        },
+        "ifc1": {
+          "type": "phys",
+          "name": "eth0",
+          "link": "l12",
+          "ipv4_addrs": [
+            "10.0.9.20/24"
+          ],
+          "mac": "42:00:aa:00:00:14"
+        }
+      }
+    },
+    "n6": {
+      "type": "lanswitch",
+      "name": "switch1",
+      "ifaces": {
+        "ifc0": {
+          "type": "phys",
+          "name": "e0",
+          "link": "l4"
+        },
+        "ifc1": {
+          "type": "phys",
+          "name": "e1",
+          "link": "l5"
+        },
+        "ifc2": {
+          "type": "phys",
+          "name": "e2",
+          "link": "l6"
+        }
+      }
+    },
+    "n13": {
+      "type": "lanswitch",
+      "name": "switch2",
+      "ifaces": {
+        "ifc0": {
+          "type": "phys",
+          "name": "e0",
+          "link": "l11"
+        },
+        "ifc1": {
+          "type": "phys",
+          "name": "e1",
+          "link": "l12"
+        }
+      }
+    }
+  },
+  "links": {
+    "l0": {
+      "peers": "n0 n1",
+      "peers_ifaces": "ifc1 ifc1"
+    },
+    "l1": {
+      "peers": "n1 n3",
+      "peers_ifaces": "ifc2 ifc1"
+    },
+    "l2": {
+      "peers": "n1 n2",
+      "peers_ifaces": "ifc3 ifc1"
+    },
+    "l3": {
+      "peers": "n3 n4",
+      "peers_ifaces": "ifc2 ifc1"
+    },
+    "l4": {
+      "peers": "n3 n6",
+      "peers_ifaces": "ifc3 ifc0"
+    },
+    "l5": {
+      "peers": "n6 n8",
+      "peers_ifaces": "ifc1 ifc1"
+    },
+    "l6": {
+      "peers": "n6 n9",
+      "peers_ifaces": "ifc2 ifc1"
+    },
+    "l7": {
+      "peers": "n4 n7",
+      "peers_ifaces": "ifc2 ifc1"
+    },
+    "l8": {
+      "peers": "n2 n5",
+      "peers_ifaces": "ifc2 ifc1"
+    },
+    "l9": {
+      "peers": "n5 n11",
+      "peers_ifaces": "ifc2 ifc1"
+    },
+    "l10": {
+      "peers": "n5 n10",
+      "peers_ifaces": "ifc3 ifc1"
+    },
+    "l11": {
+      "peers": "n2 n13",
+      "peers_ifaces": "ifc3 ifc0"
+    },
+    "l12": {
+      "peers": "n13 n12",
+      "peers_ifaces": "ifc1 ifc1"
+    }
+  }
+}
