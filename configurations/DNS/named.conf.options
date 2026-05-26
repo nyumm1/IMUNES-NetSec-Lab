@@ -1,0 +1,27 @@
+
+options {
+    directory "/var/cache/bind";
+
+    forwarders { };
+    recursion no;
+
+    allow-query {
+        localhost;
+        10.0.0.0/8;
+    };
+
+    allow-transfer { none; };
+
+    dnssec-validation no;
+    listen-on { any; };
+    listen-on-v6 { none; };
+};
+
+logging {
+	channel syslog_channel {
+		syslog daemon;
+		severity info;
+	};
+	category queries { syslog_channel; };
+	category default { syslog_channel; };
+};
