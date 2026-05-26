@@ -1,0 +1,42 @@
+
+$TTL    300
+@   IN  SOA dns-server.office.lan. admin.office.lan. (
+            2026052601  ; Serial
+            300         ; Refresh
+            60          ; Retry
+            3600        ; Expire
+            300 )       ; Negative TTL
+
+@           IN  NS      dns-server.office.lan.
+
+; server
+server-router IN A 10.0.10.1
+dhcp-server IN  A 10.0.10.10
+dns-server  IN  A 10.0.10.11
+file-server IN  A 10.0.10.12
+web-server  IN  A 10.0.10.13
+
+; finance
+fin-router  IN  A 10.0.20.1
+fin-pc1     IN  A 10.0.20.20
+fin-pc2     IN  A 10.0.20.21
+fin-pc3     IN  A 10.0.20.22
+
+; hr
+hr-router   IN  A 10.0.30.1
+hr-pc1      IN  A 10.0.30.20
+hr-pc2      IN  A 10.0.30.21
+hr-pc3      IN  A 10.0.30.22
+hr-pc4      IN  A 10.0.30.23
+
+; it
+it-router   IN  A 10.0.40.1
+it-pc1      IN  A 10.0.40.20
+it-pc2      IN  A 10.0.40.21
+it-pc3      IN  A 10.0.40.22
+it-pc4      IN  A 10.0.40.23
+
+; mgmt
+mgmt-router IN  A 10.0.50.1
+syslog      IN  A 10.0.50.10
+mgmt-pc1    IN  A 10.0.50.20

@@ -1,0 +1,14 @@
+$TTL    300
+@ IN  SOA dns-server.office.lan. admin.office.lan. (
+            2026052601
+            300
+            60
+            3600
+            300 )
+
+@ IN  NS  dns-server.office.lan.
+
+1       IN  PTR fin-router.office.lan.
+20      IN  PTR fin-pc1.office.lan.
+21      IN  PTR fin-pc2.office.lan.
+22      IN  PTR fin-pc3.office.lan.
