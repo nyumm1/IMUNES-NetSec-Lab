@@ -12,3 +12,6 @@ Managed to get DNS to work on the full topology, tried again to setup a network 
 
 25/05/2026
 Got DNSTest to work and actually learned a lot about how to configure DNS! Next challenge is the same as the one labeled before: refine the current DNS config of the office myself :)
+
+26/06/2026
+Loads of things done today, so let's go through it one by one! Firstly, made my own DNS configuration for the office topology and tested it out (first try btw :P) and it was uploaded in the configurations/DNS folder with all of the zones and conf files! Secondly, I managed to setup the Syslog server to work, although I'm not too happy with the results as I think I haven't really configured it as I initially wished (probably am missing per device configs as individual logs aren't seen outside the mgmt subnet, but the DNS server is sending it's logs very nicely :D. Thirdly, I made a startup shell script as I have no intention of typing sudo hcp blah blah 10 times every time I want to test DNS... The script works fine, but an important part is the way all of the files are organised so I also uploaded my own tree of the Office-Lab folder so that anyone can replicate it if necessarry! Fourthly, I made some slight adjustments to the topology (mainly just names) and uploaded a new imn file and a new png file!
