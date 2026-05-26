@@ -1,0 +1,36 @@
+
+// Forward zona
+zone "office.lan" {
+    type master;
+    file "/etc/bind/zones/db.office.lan";
+};
+
+// Reverse zone – Server subnet
+zone "10.0.10.in-addr.arpa" {
+    type master;
+    file "/etc/bind/zones/db.server";
+};
+
+// Reverse zone – Finance
+zone "20.0.10.in-addr.arpa" {
+    type master;
+    file "/etc/bind/zones/db.finance";
+};
+
+// Reverse zone – HR
+zone "30.0.10.in-addr.arpa" {
+    type master;
+    file "/etc/bind/zones/db.hr";
+};
+
+// Reverse zone – IT
+zone "40.0.10.in-addr.arpa" {
+    type master;
+    file "/etc/bind/zones/db.it";
+};
+
+// Reverse zone – Mgmt
+zone "50.0.10.in-addr.arpa" {
+    type master;
+    file "/etc/bind/zones/db.mgmt";
+};
