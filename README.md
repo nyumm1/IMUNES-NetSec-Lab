@@ -48,7 +48,7 @@ Each subnet connects to its own subnet router, and all subnet routers connect
 to a central main/master router.
 
 The master router is responsible for communicating with the outside network
-through the `ext1` connection.
+through the `rj45-1` connection.
 
 ---
 
