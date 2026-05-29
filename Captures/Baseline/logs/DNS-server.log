@@ -1,0 +1,17 @@
+2026-05-29T15:55:53+00:00 DNS-server rsyslogd: [origin software="rsyslogd" swVersion="8.2302.0" x-pid="302" x-info="https://www.rsyslog.com"] start
+2026-05-29T15:56:32+00:00 DNS-server named[263]: client @0xf6bebd680098 10.0.20.20#40019 (web-server.office.lan): query: web-server.office.lan IN A +E(0)K (10.0.10.11)
+2026-05-29T15:56:47+00:00 DNS-server named[263]: client @0xf6bebd0b0098 10.0.20.20#32956 (FIN-pc1.office.lan): query: FIN-pc1.office.lan IN A +E(0)K (10.0.10.11)
+2026-05-29T15:57:05+00:00 DNS-server named[263]: client @0xf6bebd0b0098 10.0.20.20#45924 (google.com): query: google.com IN A +E(0)K (10.0.10.11)
+2026-05-29T15:57:05+00:00 DNS-server named[263]: network unreachable resolving './NS/IN': 2001:500:2::c#53
+2026-05-29T15:57:05+00:00 DNS-server named[263]: network unreachable resolving './NS/IN': 2001:500:2f::f#53
+2026-05-29T15:57:05+00:00 DNS-server named[263]: network unreachable resolving './NS/IN': 2001:500:9f::42#53
+2026-05-29T15:57:05+00:00 DNS-server named[263]: network unreachable resolving './NS/IN': 2001:500:2d::d#53
+2026-05-29T15:57:05+00:00 DNS-server named[263]: network unreachable resolving './NS/IN': 2001:500:12::d0d#53
+2026-05-29T15:57:05+00:00 DNS-server named[263]: network unreachable resolving './NS/IN': 2001:503:ba3e::2:30#53
+2026-05-29T15:57:05+00:00 DNS-server named[263]: network unreachable resolving './NS/IN': 2001:500:a8::e#53
+2026-05-29T15:57:05+00:00 DNS-server named[263]: network unreachable resolving './NS/IN': 2001:7fe::53#53
+2026-05-29T15:57:05+00:00 DNS-server named[263]: network unreachable resolving './NS/IN': 2001:503:c27::2:30#53
+2026-05-29T15:57:05+00:00 DNS-server named[263]: network unreachable resolving './NS/IN': 2001:500:1::53#53
+2026-05-29T15:57:05+00:00 DNS-server named[263]: network unreachable resolving './NS/IN': 2801:1b8:10::b#53
+2026-05-29T15:57:05+00:00 DNS-server named[263]: network unreachable resolving './NS/IN': 2001:dc3::35#53
+2026-05-29T15:57:05+00:00 DNS-server named[263]: network unreachable resolving './NS/IN': 2001:7fd::1#53
