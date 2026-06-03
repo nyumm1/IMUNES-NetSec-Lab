@@ -24,3 +24,6 @@ Made the Captures folder and inserted the baseline captures as well as the logs 
 
 31/05/2026
 Nothing happened on github the past two days... I was spending some time finishing up the CDSA path (finally done woohooo) and reading into how scapy works... Turns out, these network attacks seem a lot easier than first expected! Can't wait to start making these scanners and attacks so stay tuned :)
+
+03/06/2026
+Finally uploaded the ARP scan tool! It was not that hard to build because, as I said previously, Scapy really does make this whole thing a lot quicker. I'm sort of happy with it, but I think that the rsyslog setup is not working as I thought it would neither am I happy with the ARP annoncement that happens when the scanner works... Will look into how rsyslog works as I would be a lot happier if it had sent info of everything that happened on the pc, but I am well aware that it would not be usable in the long run. Fun easter egg, in the capture of the ARP scan I opened and listened to Crab Rave on the web browser while the scanner was running xD It's both terrifying and amazing to see how few packets with "malicious" intent were in the capture, yet how much they have managed to find. Now onto the next step which is... I have no idea, probably something else also related to ARP :)
