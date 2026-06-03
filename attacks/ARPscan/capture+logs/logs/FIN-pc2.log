@@ -1,0 +1,6 @@
+2026-06-03T09:09:57+00:00 FIN-pc2 kernel: [  189.412571] eth0: entered promiscuous mode
+2026-06-03T09:10:58+00:00 FIN-pc2 kernel: [  250.255335] eth0: entered promiscuous mode
+2026-06-03T09:14:13+00:00 FIN-pc2 kernel: [  445.044958] eth0: left promiscuous mode
+2026-06-03T09:14:24+00:00 FIN-pc2 kernel: [  456.488006] eth0: left promiscuous mode
+2026-06-03T09:14:26+00:00 FIN-pc2 kernel: [  457.927607] eth0: entered promiscuous mode
+2026-06-03T09:14:50+00:00 FIN-pc2 kernel: [  482.673225] eth0: entered promiscuous mode

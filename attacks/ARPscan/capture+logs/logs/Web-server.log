@@ -1,0 +1,7 @@
+2026-06-03T09:10:37+00:00 Web-server kernel: [  229.901537] eth0: left promiscuous mode
+2026-06-03T09:10:53+00:00 Web-server kernel: [  245.239634] eth0: entered promiscuous mode
+2026-06-03T09:10:58+00:00 Web-server kernel: [  250.265125] eth0: left promiscuous mode
+2026-06-03T09:11:01+00:00 Web-server kernel: [  252.998434] eth0: left promiscuous mode
+2026-06-03T09:14:09+00:00 Web-server kernel: [  441.261566] eth0: entered promiscuous mode
+2026-06-03T09:14:38+00:00 Web-server kernel: [  470.900471] eth0: left promiscuous mode
+2026-06-03T09:15:01+00:00 Web-server kernel: [  493.863162] eth0: left promiscuous mode

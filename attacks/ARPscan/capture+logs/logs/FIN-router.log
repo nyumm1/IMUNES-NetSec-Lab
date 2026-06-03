@@ -1,0 +1,5 @@
+2026-06-03T09:10:32+00:00 FIN-router kernel: [  224.248045] eth0: entered promiscuous mode
+2026-06-03T09:10:32+00:00 FIN-router rsyslogd: action 'action-8-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2302.0 try https://www.rsyslog.com/e/2359 ]
+2026-06-03T09:11:00+00:00 FIN-router kernel: [  251.988395] eth0: entered promiscuous mode
+2026-06-03T09:14:14+00:00 FIN-router kernel: [  446.625958] eth0: entered promiscuous mode
+2026-06-03T09:14:48+00:00 FIN-router kernel: [  480.275101] eth0: entered promiscuous mode

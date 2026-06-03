@@ -1,0 +1,13 @@
+2026-06-03T09:10:27+00:00 File-server kernel: [  219.391172] eth0: entered promiscuous mode
+2026-06-03T09:10:30+00:00 File-server kernel: [  222.152335] eth0: entered promiscuous mode
+2026-06-03T09:10:31+00:00 File-server kernel: [  223.160451] eth0: left promiscuous mode
+2026-06-03T09:10:33+00:00 File-server kernel: [  225.263259] eth0: left promiscuous mode
+2026-06-03T09:10:35+00:00 File-server kernel: [  227.103664] eth0: entered promiscuous mode
+2026-06-03T09:10:40+00:00 File-server kernel: [  232.695218] eth0: left promiscuous mode
+2026-06-03T09:10:42+00:00 File-server kernel: [  234.066036] eth0: entered promiscuous mode
+2026-06-03T09:10:54+00:00 File-server kernel: [  246.251906] eth0: left promiscuous mode
+2026-06-03T09:10:55+00:00 File-server kernel: [  247.572821] eth0: entered promiscuous mode
+2026-06-03T09:11:08+00:00 File-server kernel: [  260.791303] eth0: left promiscuous mode
+2026-06-03T09:13:55+00:00 File-server kernel: [  427.405894] eth0: entered promiscuous mode
+2026-06-03T09:14:05+00:00 File-server kernel: [  437.089688] eth0: left promiscuous mode
+2026-06-03T09:14:07+00:00 File-server kernel: [  439.737693] eth0: left promiscuous mode

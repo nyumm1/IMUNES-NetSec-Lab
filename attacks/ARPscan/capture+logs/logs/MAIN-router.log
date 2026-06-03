@@ -1,0 +1,6 @@
+2026-06-03T09:10:10+00:00 MAIN-router kernel: [  202.585436] eth0: left promiscuous mode
+2026-06-03T09:10:10+00:00 MAIN-router rsyslogd: action 'action-8-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2302.0 try https://www.rsyslog.com/e/2359 ]
+2026-06-03T09:10:56+00:00 MAIN-router kernel: [  248.588702] eth0: left promiscuous mode
+2026-06-03T09:14:06+00:00 MAIN-router kernel: [  438.729155] eth0: entered promiscuous mode
+2026-06-03T09:14:55+00:00 MAIN-router kernel: [  487.231222] eth0: entered promiscuous mode
+2026-06-03T09:15:03+00:00 MAIN-router kernel: [  495.675261] eth0: entered promiscuous mode

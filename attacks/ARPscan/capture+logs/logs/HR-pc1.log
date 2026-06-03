@@ -1,0 +1,5 @@
+2026-06-03T09:10:25+00:00 HR-pc1 kernel: [  217.887476] eth0: left promiscuous mode
+2026-06-03T09:10:48+00:00 HR-pc1 kernel: [  240.690192] eth0: entered promiscuous mode
+2026-06-03T09:11:02+00:00 HR-pc1 kernel: [  254.208320] eth0: entered promiscuous mode
+2026-06-03T09:13:56+00:00 HR-pc1 kernel: [  428.420383] eth0: left promiscuous mode
+2026-06-03T09:14:10+00:00 HR-pc1 kernel: [  442.266648] eth0: left promiscuous mode

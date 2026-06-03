@@ -1,0 +1,7 @@
+2026-06-03T09:10:01+00:00 IT-pc2 kernel: [  193.103443] eth0: left promiscuous mode
+2026-06-03T09:10:06+00:00 IT-pc2 kernel: [  197.918273] eth0: left promiscuous mode
+2026-06-03T09:14:00+00:00 IT-pc2 kernel: [  432.261873] eth0: entered promiscuous mode
+2026-06-03T09:14:34+00:00 IT-pc2 kernel: [  466.154278] eth0: entered promiscuous mode
+2026-06-03T09:14:36+00:00 IT-pc2 kernel: [  468.242018] eth0: entered promiscuous mode
+2026-06-03T09:14:53+00:00 IT-pc2 kernel: [  485.483903] eth0: left promiscuous mode
+2026-06-03T09:15:00+00:00 IT-pc2 kernel: [  492.855798] eth0: entered promiscuous mode

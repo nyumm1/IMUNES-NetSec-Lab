@@ -1,0 +1,12 @@
+2026-06-03T09:08:28+00:00 MGMT-pc1 rsyslogd: [origin software="rsyslogd" swVersion="8.2302.0" x-pid="120" x-info="https://www.rsyslog.com"] start
+2026-06-03T09:10:03+00:00 MGMT-pc1 kernel: [  194.933792] eth0: entered promiscuous mode
+2026-06-03T09:10:04+00:00 MGMT-pc1 kernel: [  195.947948] eth0: left promiscuous mode
+2026-06-03T09:10:07+00:00 MGMT-pc1 kernel: [  199.655118] NET: Registered PF_BLUETOOTH protocol family
+2026-06-03T09:10:07+00:00 MGMT-pc1 kernel: [  199.655120] Bluetooth: HCI device and connection manager initialized
+2026-06-03T09:10:07+00:00 MGMT-pc1 kernel: [  199.655123] Bluetooth: HCI socket layer initialized
+2026-06-03T09:10:07+00:00 MGMT-pc1 kernel: [  199.655125] Bluetooth: L2CAP socket layer initialized
+2026-06-03T09:10:07+00:00 MGMT-pc1 kernel: [  199.655133] Bluetooth: SCO socket layer initialized
+2026-06-03T09:10:19+00:00 MGMT-pc1 kernel: [  211.558341] eth0: entered promiscuous mode
+2026-06-03T09:10:23+00:00 MGMT-pc1 kernel: [  215.122612] eth0: left promiscuous mode
+2026-06-03T09:10:39+00:00 MGMT-pc1 kernel: [  231.683440] eth0: entered promiscuous mode
+2026-06-03T09:14:37+00:00 MGMT-pc1 kernel: [  469.885913] eth0: entered promiscuous mode

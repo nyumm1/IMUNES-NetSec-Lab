@@ -1,0 +1,7 @@
+2026-06-03T09:08:20.082332+00:00 Syslog rsyslogd: [origin software="rsyslogd" swVersion="8.2302.0" x-pid="131" x-info="https://www.rsyslog.com"] start
+2026-06-03T09:10:08.220215+00:00 Syslog kernel: [  200.134590] eth0: left promiscuous mode
+2026-06-03T09:10:09.652504+00:00 Syslog kernel: [  201.565912] eth0: entered promiscuous mode
+2026-06-03T09:10:24.960495+00:00 Syslog kernel: [  216.874132] eth0: entered promiscuous mode
+2026-06-03T09:10:47.692612+00:00 Syslog kernel: [  239.606279] eth0: left promiscuous mode
+2026-06-03T09:14:23.567190+00:00 Syslog kernel: [  455.481462] eth0: entered promiscuous mode
+2026-06-03T09:14:31.392223+00:00 Syslog kernel: [  463.306425] eth0: entered promiscuous mode

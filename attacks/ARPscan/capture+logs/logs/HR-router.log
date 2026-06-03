@@ -1,0 +1,5 @@
+2026-06-03T09:10:28+00:00 HR-router kernel: [  220.403508] eth0: left promiscuous mode
+2026-06-03T09:10:28+00:00 HR-router rsyslogd: action 'action-8-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2302.0 try https://www.rsyslog.com/e/2359 ]
+2026-06-03T09:10:35+00:00 HR-router kernel: [  227.119307] eth0: left promiscuous mode
+2026-06-03T09:14:40+00:00 HR-router kernel: [  472.623483] eth0: entered promiscuous mode
+2026-06-03T09:14:51+00:00 HR-router kernel: [  483.679436] eth0: left promiscuous mode

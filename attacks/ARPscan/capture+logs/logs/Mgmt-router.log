@@ -1,0 +1,7 @@
+2026-06-03T09:08:22+00:00 Mgmt-router rsyslogd: [origin software="rsyslogd" swVersion="8.2302.0" x-pid="200" x-info="https://www.rsyslog.com"] start
+2026-06-03T09:10:15+00:00 Mgmt-router kernel: [  207.318922] eth0: entered promiscuous mode
+2026-06-03T09:10:18+00:00 Mgmt-router kernel: [  210.256250] eth0: entered promiscuous mode
+2026-06-03T09:14:35+00:00 Mgmt-router kernel: [  467.166606] eth0: left promiscuous mode
+2026-06-03T09:14:41+00:00 Mgmt-router kernel: [  473.634298] eth0: left promiscuous mode
+2026-06-03T09:14:53+00:00 Mgmt-router kernel: [  485.476967] eth0: entered promiscuous mode
+2026-06-03T09:14:58+00:00 Mgmt-router kernel: [  490.149262] eth0: entered promiscuous mode

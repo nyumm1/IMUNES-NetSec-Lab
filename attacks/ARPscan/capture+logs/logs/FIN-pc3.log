@@ -1,0 +1,8 @@
+2026-06-03T09:10:07+00:00 FIN-pc3 kernel: [  199.655053] Bluetooth: Core ver 2.22
+2026-06-03T09:10:13+00:00 FIN-pc3 kernel: [  205.427808] eth0: left promiscuous mode
+2026-06-03T09:10:46+00:00 FIN-pc3 kernel: [  238.596826] eth0: entered promiscuous mode
+2026-06-03T09:13:58+00:00 FIN-pc3 kernel: [  430.062391] eth0: entered promiscuous mode
+2026-06-03T09:14:02+00:00 FIN-pc3 kernel: [  434.897086] eth0: left promiscuous mode
+2026-06-03T09:14:16+00:00 FIN-pc3 kernel: [  448.836418] eth0: left promiscuous mode
+2026-06-03T09:14:44+00:00 FIN-pc3 kernel: [  476.066053] eth0: left promiscuous mode
+2026-06-03T09:14:59+00:00 FIN-pc3 kernel: [  491.156876] eth0: left promiscuous mode

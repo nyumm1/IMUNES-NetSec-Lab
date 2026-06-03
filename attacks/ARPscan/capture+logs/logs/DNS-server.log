@@ -1,0 +1,325 @@
+2026-06-03T09:10:05+00:00 DNS-server kernel: [  197.911430] eth0: entered promiscuous mode
+2026-06-03T09:10:43+00:00 DNS-server kernel: [  235.073219] eth0: left promiscuous mode
+2026-06-03T09:10:51+00:00 DNS-server kernel: [  243.910472] eth0: left promiscuous mode
+2026-06-03T09:11:03+00:00 DNS-server kernel: [  255.218468] eth0: left promiscuous mode
+2026-06-03T09:12:54+00:00 DNS-server named[265]: client @0xeb42556d0098 10.0.40.20#45701 (Syslog.office.lan): query: Syslog.office.lan IN A +E(0)K (10.0.10.11)
+2026-06-03T09:13:00+00:00 DNS-server named[265]: client @0xeb42548b0098 10.0.40.20#38997 (fer.unizg.hr): query: fer.unizg.hr IN A +E(0)K (10.0.10.11)
+2026-06-03T09:13:00+00:00 DNS-server named[265]: network unreachable resolving './NS/IN': 2001:503:ba3e::2:30#53
+2026-06-03T09:13:00+00:00 DNS-server named[265]: network unreachable resolving './NS/IN': 2001:500:12::d0d#53
+2026-06-03T09:13:00+00:00 DNS-server named[265]: network unreachable resolving './NS/IN': 2001:dc3::35#53
+2026-06-03T09:13:00+00:00 DNS-server named[265]: network unreachable resolving './NS/IN': 2001:500:9f::42#53
+2026-06-03T09:13:00+00:00 DNS-server named[265]: network unreachable resolving './NS/IN': 2001:500:2::c#53
+2026-06-03T09:13:00+00:00 DNS-server named[265]: network unreachable resolving './NS/IN': 2001:500:a8::e#53
+2026-06-03T09:13:00+00:00 DNS-server named[265]: network unreachable resolving './NS/IN': 2001:503:c27::2:30#53
+2026-06-03T09:13:00+00:00 DNS-server named[265]: network unreachable resolving './NS/IN': 2001:7fe::53#53
+2026-06-03T09:13:00+00:00 DNS-server named[265]: network unreachable resolving './NS/IN': 2801:1b8:10::b#53
+2026-06-03T09:13:00+00:00 DNS-server named[265]: network unreachable resolving './NS/IN': 2001:500:2d::d#53
+2026-06-03T09:13:00+00:00 DNS-server named[265]: network unreachable resolving './NS/IN': 2001:500:2f::f#53
+2026-06-03T09:13:00+00:00 DNS-server named[265]: network unreachable resolving './NS/IN': 2001:500:1::53#53
+2026-06-03T09:13:00+00:00 DNS-server named[265]: network unreachable resolving './NS/IN': 2001:7fd::1#53
+2026-06-03T09:13:17+00:00 DNS-server named[265]: client @0xeb4254e60098 10.0.40.20#50788 (IT-pc1.office.lan): query: IT-pc1.office.lan IN A + (10.0.10.11)
+2026-06-03T09:13:17+00:00 DNS-server named[265]: client @0xeb42548b0098 10.0.40.20#46028 (IT-pc1.office.lan): query: IT-pc1.office.lan IN A + (10.0.10.11)
+2026-06-03T09:13:17+00:00 DNS-server named[265]: client @0xeb4254e60098 10.0.40.20#36990 (location.services.mozilla.com): query: location.services.mozilla.com IN A + (10.0.10.11)
+2026-06-03T09:13:17+00:00 DNS-server named[265]: client @0xeb4254e61c98 10.0.40.20#36990 (location.services.mozilla.com): query: location.services.mozilla.com IN AAAA + (10.0.10.11)
+2026-06-03T09:13:18+00:00 DNS-server named[265]: client @0xeb42556d0098 10.0.40.20#55653 (firefox.settings.services.mozilla.com): query: firefox.settings.services.mozilla.com IN A + (10.0.10.11)
+2026-06-03T09:13:18+00:00 DNS-server named[265]: client @0xeb42556d1c98 10.0.40.20#55653 (firefox.settings.services.mozilla.com): query: firefox.settings.services.mozilla.com IN AAAA + (10.0.10.11)
+2026-06-03T09:13:18+00:00 DNS-server named[265]: client @0xeb42548b0098 10.0.40.20#58734 (firefox-settings-attachments.cdn.mozilla.net): query: firefox-settings-attachments.cdn.mozilla.net IN A + (10.0.10.11)
+2026-06-03T09:13:18+00:00 DNS-server named[265]: client @0xeb42548b1c98 10.0.40.20#58734 (firefox-settings-attachments.cdn.mozilla.net): query: firefox-settings-attachments.cdn.mozilla.net IN AAAA + (10.0.10.11)
+2026-06-03T09:13:18+00:00 DNS-server named[265]: client @0xeb4254e61c98 10.0.40.20#36446 (detectportal.firefox.com): query: detectportal.firefox.com IN A + (10.0.10.11)
+2026-06-03T09:13:18+00:00 DNS-server named[265]: client @0xeb4254e60098 10.0.40.20#36446 (detectportal.firefox.com): query: detectportal.firefox.com IN AAAA + (10.0.10.11)
+2026-06-03T09:13:18+00:00 DNS-server named[265]: client @0xeb42548b1c98 10.0.40.20#37995 (www.mozilla.org): query: www.mozilla.org IN HTTPS + (10.0.10.11)
+2026-06-03T09:13:18+00:00 DNS-server named[265]: client @0xeb42556d1c98 10.0.40.20#37078 (www.mozilla.org): query: www.mozilla.org IN A + (10.0.10.11)
+2026-06-03T09:13:18+00:00 DNS-server named[265]: client @0xeb42556d0098 10.0.40.20#37078 (www.mozilla.org): query: www.mozilla.org IN AAAA + (10.0.10.11)
+2026-06-03T09:13:18+00:00 DNS-server named[265]: client @0xeb4255180098 10.0.40.20#50523 (ads.mozilla.org): query: ads.mozilla.org IN A + (10.0.10.11)
+2026-06-03T09:13:18+00:00 DNS-server named[265]: client @0xeb4255181c98 10.0.40.20#50523 (ads.mozilla.org): query: ads.mozilla.org IN AAAA + (10.0.10.11)
+2026-06-03T09:13:18+00:00 DNS-server named[265]: client @0xeb4254e61c98 10.0.40.20#59866 (content-signature-2.cdn.mozilla.net): query: content-signature-2.cdn.mozilla.net IN A + (10.0.10.11)
+2026-06-03T09:13:18+00:00 DNS-server named[265]: client @0xeb4254e60098 10.0.40.20#59866 (content-signature-2.cdn.mozilla.net): query: content-signature-2.cdn.mozilla.net IN AAAA + (10.0.10.11)
+2026-06-03T09:13:19+00:00 DNS-server named[265]: client @0xeb4254e60098 10.0.40.20#58325 (push.services.mozilla.com): query: push.services.mozilla.com IN A + (10.0.10.11)
+2026-06-03T09:13:19+00:00 DNS-server named[265]: client @0xeb4254e61c98 10.0.40.20#58325 (push.services.mozilla.com): query: push.services.mozilla.com IN AAAA + (10.0.10.11)
+2026-06-03T09:13:19+00:00 DNS-server named[265]: client @0xeb42556d0098 10.0.40.20#52530 (example.org): query: example.org IN A + (10.0.10.11)
+2026-06-03T09:13:19+00:00 DNS-server named[265]: client @0xeb4255181c98 10.0.40.20#43005 (example.org): query: example.org IN A + (10.0.10.11)
+2026-06-03T09:13:19+00:00 DNS-server named[265]: client @0xeb4255180098 10.0.40.20#43005 (example.org): query: example.org IN AAAA + (10.0.10.11)
+2026-06-03T09:13:19+00:00 DNS-server named[265]: client @0xeb42556d0098 10.0.40.20#47049 (cloudflare-dns.com): query: cloudflare-dns.com IN HTTPS + (10.0.10.11)
+2026-06-03T09:13:19+00:00 DNS-server named[265]: client @0xeb4254e61c98 10.0.40.20#42622 (ipv4only.arpa): query: ipv4only.arpa IN A + (10.0.10.11)
+2026-06-03T09:13:19+00:00 DNS-server named[265]: client @0xeb4254e60098 10.0.40.20#42622 (ipv4only.arpa): query: ipv4only.arpa IN AAAA + (10.0.10.11)
+2026-06-03T09:13:19+00:00 DNS-server named[265]: client @0xeb42556d0098 10.0.40.20#60215 (firefox-settings-attachments.cdn.mozilla.net): query: firefox-settings-attachments.cdn.mozilla.net IN A + (10.0.10.11)
+2026-06-03T09:13:19+00:00 DNS-server named[265]: client @0xeb42556d1c98 10.0.40.20#60215 (firefox-settings-attachments.cdn.mozilla.net): query: firefox-settings-attachments.cdn.mozilla.net IN AAAA + (10.0.10.11)
+2026-06-03T09:13:19+00:00 DNS-server named[265]: client @0xeb4254e61c98 10.0.40.20#53480 (firefox-settings-attachments.cdn.mozilla.net): query: firefox-settings-attachments.cdn.mozilla.net IN HTTPS + (10.0.10.11)
+2026-06-03T09:13:19+00:00 DNS-server named[265]: client @0xeb42548b1c98 10.0.40.20#45465 (firefox-settings-attachments.cdn.mozilla.net): query: firefox-settings-attachments.cdn.mozilla.net IN HTTPS + (10.0.10.11)
+2026-06-03T09:13:19+00:00 DNS-server named[265]: client @0xeb42556d1c98 10.0.40.20#52214 (normandy.cdn.mozilla.net): query: normandy.cdn.mozilla.net IN A + (10.0.10.11)
+2026-06-03T09:13:19+00:00 DNS-server named[265]: client @0xeb42556d0098 10.0.40.20#52214 (normandy.cdn.mozilla.net): query: normandy.cdn.mozilla.net IN AAAA + (10.0.10.11)
+2026-06-03T09:13:19+00:00 DNS-server named[265]: client @0xeb4255180098 10.0.40.20#45041 (classify-client.services.mozilla.com): query: classify-client.services.mozilla.com IN A + (10.0.10.11)
+2026-06-03T09:13:19+00:00 DNS-server named[265]: client @0xeb4255181c98 10.0.40.20#45041 (classify-client.services.mozilla.com): query: classify-client.services.mozilla.com IN AAAA + (10.0.10.11)
+2026-06-03T09:13:20+00:00 DNS-server named[265]: client @0xeb42548b1c98 10.0.40.20#54790 (www.wikipedia.org): query: www.wikipedia.org IN A + (10.0.10.11)
+2026-06-03T09:13:20+00:00 DNS-server named[265]: client @0xeb42556d0098 10.0.40.20#49546 (www.youtube.com): query: www.youtube.com IN A + (10.0.10.11)
+2026-06-03T09:13:20+00:00 DNS-server named[265]: client @0xeb4254e61c98 10.0.40.20#56615 (www.wikipedia.org): query: www.wikipedia.org IN HTTPS + (10.0.10.11)
+2026-06-03T09:13:20+00:00 DNS-server named[265]: client @0xeb4255181c98 10.0.40.20#50802 (www.youtube.com): query: www.youtube.com IN HTTPS + (10.0.10.11)
+2026-06-03T09:13:20+00:00 DNS-server named[265]: client @0xeb42548b0098 10.0.40.20#54790 (www.wikipedia.org): query: www.wikipedia.org IN AAAA + (10.0.10.11)
+2026-06-03T09:13:20+00:00 DNS-server named[265]: client @0xeb42556d1c98 10.0.40.20#49546 (www.youtube.com): query: www.youtube.com IN AAAA + (10.0.10.11)
+2026-06-03T09:13:20+00:00 DNS-server named[265]: client @0xeb4255180098 10.0.40.20#58844 (www.reddit.com): query: www.reddit.com IN A + (10.0.10.11)
+2026-06-03T09:13:20+00:00 DNS-server named[265]: client @0xeb4255183898 10.0.40.20#58844 (www.reddit.com): query: www.reddit.com IN AAAA + (10.0.10.11)
+2026-06-03T09:13:20+00:00 DNS-server named[265]: client @0xeb42556d1c98 10.0.40.20#51584 (www.reddit.com): query: www.reddit.com IN HTTPS + (10.0.10.11)
+2026-06-03T09:13:20+00:00 DNS-server named[265]: client @0xeb42556d0098 10.0.40.20#51384 (addons.mozilla.org): query: addons.mozilla.org IN A + (10.0.10.11)
+2026-06-03T09:13:20+00:00 DNS-server named[265]: client @0xeb42556d3898 10.0.40.20#51384 (addons.mozilla.org): query: addons.mozilla.org IN AAAA + (10.0.10.11)
+2026-06-03T09:13:20+00:00 DNS-server named[265]: client @0xeb4255181c98 10.0.40.20#49101 (addons.mozilla.org): query: addons.mozilla.org IN HTTPS + (10.0.10.11)
+2026-06-03T09:13:28+00:00 DNS-server named[265]: client @0xeb42548b0098 10.0.40.20#41217 (www.google.com): query: www.google.com IN A + (10.0.10.11)
+2026-06-03T09:13:28+00:00 DNS-server named[265]: client @0xeb4254e61c98 10.0.40.20#57732 (www.google.com): query: www.google.com IN HTTPS + (10.0.10.11)
+2026-06-03T09:13:28+00:00 DNS-server named[265]: client @0xeb42548b1c98 10.0.40.20#41217 (www.google.com): query: www.google.com IN AAAA + (10.0.10.11)
+2026-06-03T09:13:28+00:00 DNS-server named[265]: client @0xeb42548b1c98 10.0.40.20#36312 (o.pki.goog): query: o.pki.goog IN A + (10.0.10.11)
+2026-06-03T09:13:28+00:00 DNS-server named[265]: client @0xeb42548b0098 10.0.40.20#36312 (o.pki.goog): query: o.pki.goog IN AAAA + (10.0.10.11)
+2026-06-03T09:13:29+00:00 DNS-server named[265]: client @0xeb4255183898 10.0.40.20#59256 (fonts.gstatic.com): query: fonts.gstatic.com IN A + (10.0.10.11)
+2026-06-03T09:13:29+00:00 DNS-server named[265]: client @0xeb4255180098 10.0.40.20#59256 (fonts.gstatic.com): query: fonts.gstatic.com IN AAAA + (10.0.10.11)
+2026-06-03T09:13:29+00:00 DNS-server named[265]: client @0xeb4254e61c98 10.0.40.20#35986 (fonts.gstatic.com): query: fonts.gstatic.com IN HTTPS + (10.0.10.11)
+2026-06-03T09:13:29+00:00 DNS-server named[265]: client @0xeb4255180098 10.0.40.20#37152 (www.googleadservices.com): query: www.googleadservices.com IN HTTPS + (10.0.10.11)
+2026-06-03T09:13:29+00:00 DNS-server named[265]: client @0xeb42556d0098 10.0.40.20#55479 (www.googleadservices.com): query: www.googleadservices.com IN A + (10.0.10.11)
+2026-06-03T09:13:29+00:00 DNS-server named[265]: client @0xeb42556d1c98 10.0.40.20#55479 (www.googleadservices.com): query: www.googleadservices.com IN AAAA + (10.0.10.11)
+2026-06-03T09:13:29+00:00 DNS-server named[265]: client @0xeb42548b0098 10.0.40.20#48841 (csp.withgoogle.com): query: csp.withgoogle.com IN HTTPS + (10.0.10.11)
+2026-06-03T09:13:29+00:00 DNS-server named[265]: client @0xeb4255183898 10.0.40.20#36617 (csp.withgoogle.com): query: csp.withgoogle.com IN A + (10.0.10.11)
+2026-06-03T09:13:29+00:00 DNS-server named[265]: client @0xeb4255181c98 10.0.40.20#36617 (csp.withgoogle.com): query: csp.withgoogle.com IN AAAA + (10.0.10.11)
+2026-06-03T09:13:29+00:00 DNS-server named[265]: client @0xeb42548b1c98 10.0.40.20#34573 (www.gstatic.com): query: www.gstatic.com IN A + (10.0.10.11)
+2026-06-03T09:13:29+00:00 DNS-server named[265]: client @0xeb42548b3898 10.0.40.20#34573 (www.gstatic.com): query: www.gstatic.com IN AAAA + (10.0.10.11)
+2026-06-03T09:13:29+00:00 DNS-server named[265]: client @0xeb4254e61c98 10.0.40.20#47879 (www.gstatic.com): query: www.gstatic.com IN HTTPS + (10.0.10.11)
+2026-06-03T09:13:29+00:00 DNS-server named[265]: client @0xeb42556d1c98 10.0.40.20#39062 (www.googletagmanager.com): query: www.googletagmanager.com IN A + (10.0.10.11)
+2026-06-03T09:13:29+00:00 DNS-server named[265]: client @0xeb42556d0098 10.0.40.20#39062 (www.googletagmanager.com): query: www.googletagmanager.com IN AAAA + (10.0.10.11)
+2026-06-03T09:13:29+00:00 DNS-server named[265]: client @0xeb4255181c98 10.0.40.20#60926 (www.googletagmanager.com): query: www.googletagmanager.com IN HTTPS + (10.0.10.11)
+2026-06-03T09:13:29+00:00 DNS-server named[265]: client @0xeb42548b3898 10.0.40.20#47742 (ogads-pa.clients6.google.com): query: ogads-pa.clients6.google.com IN HTTPS + (10.0.10.11)
+2026-06-03T09:13:29+00:00 DNS-server named[265]: client @0xeb4255181c98 10.0.40.20#47261 (ogads-pa.clients6.google.com): query: ogads-pa.clients6.google.com IN A + (10.0.10.11)
+2026-06-03T09:13:29+00:00 DNS-server named[265]: client @0xeb4255180098 10.0.40.20#47261 (ogads-pa.clients6.google.com): query: ogads-pa.clients6.google.com IN AAAA + (10.0.10.11)
+2026-06-03T09:13:30+00:00 DNS-server named[265]: client @0xeb42548b3898 10.0.40.20#35154 (play.google.com): query: play.google.com IN A + (10.0.10.11)
+2026-06-03T09:13:30+00:00 DNS-server named[265]: client @0xeb42548b1c98 10.0.40.20#35154 (play.google.com): query: play.google.com IN AAAA + (10.0.10.11)
+2026-06-03T09:13:30+00:00 DNS-server named[265]: client @0xeb4255180098 10.0.40.20#36661 (play.google.com): query: play.google.com IN HTTPS + (10.0.10.11)
+2026-06-03T09:13:30+00:00 DNS-server named[265]: client @0xeb4254e61c98 10.0.40.20#54608 (consent.google.com): query: consent.google.com IN A + (10.0.10.11)
+2026-06-03T09:13:30+00:00 DNS-server named[265]: client @0xeb4254e60098 10.0.40.20#54608 (consent.google.com): query: consent.google.com IN AAAA + (10.0.10.11)
+2026-06-03T09:13:30+00:00 DNS-server named[265]: client @0xeb4254e63898 10.0.40.20#40655 (consent.google.com): query: consent.google.com IN HTTPS + (10.0.10.11)
+2026-06-03T09:13:30+00:00 DNS-server named[265]: timed out resolving 'csp.withgoogle.com/A/IN': 192.168.178.1#53
+2026-06-03T09:13:30+00:00 DNS-server named[265]: network unreachable resolving 'csp.withgoogle.com/A/IN': 2001:500:a8::e#53
+2026-06-03T09:13:31+00:00 DNS-server named[265]: client @0xeb4254e61c98 10.0.40.20#37014 (ssl.gstatic.com): query: ssl.gstatic.com IN HTTPS + (10.0.10.11)
+2026-06-03T09:13:31+00:00 DNS-server named[265]: client @0xeb42548b1c98 10.0.40.20#43862 (ssl.gstatic.com): query: ssl.gstatic.com IN A + (10.0.10.11)
+2026-06-03T09:13:31+00:00 DNS-server named[265]: client @0xeb42548b3898 10.0.40.20#43862 (ssl.gstatic.com): query: ssl.gstatic.com IN AAAA + (10.0.10.11)
+2026-06-03T09:13:31+00:00 DNS-server named[265]: client @0xeb42556d0098 10.0.40.20#54940 (www.youtube.com): query: www.youtube.com IN HTTPS + (10.0.10.11)
+2026-06-03T09:13:31+00:00 DNS-server named[265]: client @0xeb4254e61c98 10.0.40.20#48102 (www.youtube.com): query: www.youtube.com IN A + (10.0.10.11)
+2026-06-03T09:13:31+00:00 DNS-server named[265]: client @0xeb4254e60098 10.0.40.20#48102 (www.youtube.com): query: www.youtube.com IN AAAA + (10.0.10.11)
+2026-06-03T09:13:31+00:00 DNS-server named[265]: client @0xeb4254e60098 10.0.40.20#59556 (youtube-ui.l.google.com): query: youtube-ui.l.google.com IN A + (10.0.10.11)
+2026-06-03T09:13:31+00:00 DNS-server named[265]: client @0xeb4254e61c98 10.0.40.20#59556 (youtube-ui.l.google.com): query: youtube-ui.l.google.com IN AAAA + (10.0.10.11)
+2026-06-03T09:13:32+00:00 DNS-server named[265]: timed out resolving 'play.google.com/HTTPS/IN': 192.168.178.1#53
+2026-06-03T09:13:32+00:00 DNS-server named[265]: network unreachable resolving 'play.google.com/HTTPS/IN': 2001:500:a8::e#53
+2026-06-03T09:13:32+00:00 DNS-server named[265]: timed out resolving 'consent.google.com/HTTPS/IN': 192.168.178.1#53
+2026-06-03T09:13:32+00:00 DNS-server named[265]: network unreachable resolving 'consent.google.com/HTTPS/IN': 2001:500:a8::e#53
+2026-06-03T09:13:32+00:00 DNS-server named[265]: timed out resolving 'c.gtld-servers.net/AAAA/IN': 192.168.178.1#53
+2026-06-03T09:13:32+00:00 DNS-server named[265]: network unreachable resolving 'c.gtld-servers.net/AAAA/IN': 2001:500:a8::e#53
+2026-06-03T09:13:32+00:00 DNS-server named[265]: timed out resolving 'withgoogle.com/NS/IN': 192.168.178.1#53
+2026-06-03T09:13:32+00:00 DNS-server named[265]: network unreachable resolving 'withgoogle.com/NS/IN': 2001:503:a83e::2:30#53
+2026-06-03T09:13:32+00:00 DNS-server named[265]: timed out resolving 'f.gtld-servers.net/AAAA/IN': 192.168.178.1#53
+2026-06-03T09:13:32+00:00 DNS-server named[265]: network unreachable resolving 'f.gtld-servers.net/AAAA/IN': 2001:500:a8::e#53
+2026-06-03T09:13:32+00:00 DNS-server named[265]: network unreachable resolving 'csp.withgoogle.com/A/IN': 2001:4860:4802:36::a#53
+2026-06-03T09:13:32+00:00 DNS-server named[265]: loop detected resolving 'ns2.google.com/A'
+2026-06-03T09:13:32+00:00 DNS-server named[265]: loop detected resolving 'ns2.google.com/AAAA'
+2026-06-03T09:13:32+00:00 DNS-server named[265]: network unreachable resolving 'csp.withgoogle.com/A/IN': 2001:4860:4802:38::a#53
+2026-06-03T09:13:32+00:00 DNS-server named[265]: client @0xeb42556d0098 10.0.40.20#41791 (i.ytimg.com): query: i.ytimg.com IN HTTPS + (10.0.10.11)
+2026-06-03T09:13:32+00:00 DNS-server named[265]: client @0xeb42556d1c98 10.0.40.20#32893 (i.ytimg.com): query: i.ytimg.com IN A + (10.0.10.11)
+2026-06-03T09:13:32+00:00 DNS-server named[265]: client @0xeb42556d3898 10.0.40.20#32893 (i.ytimg.com): query: i.ytimg.com IN AAAA + (10.0.10.11)
+2026-06-03T09:13:32+00:00 DNS-server named[265]: client @0xeb42548b1c98 10.0.40.20#35528 (fonts.googleapis.com): query: fonts.googleapis.com IN HTTPS + (10.0.10.11)
+2026-06-03T09:13:32+00:00 DNS-server named[265]: client @0xeb4255183898 10.0.40.20#47271 (fonts.googleapis.com): query: fonts.googleapis.com IN A + (10.0.10.11)
+2026-06-03T09:13:32+00:00 DNS-server named[265]: client @0xeb4255180098 10.0.40.20#47271 (fonts.googleapis.com): query: fonts.googleapis.com IN AAAA + (10.0.10.11)
+2026-06-03T09:13:32+00:00 DNS-server named[265]: network unreachable resolving 'c.gtld-servers.net/AAAA/IN': 2001:502:8cc::30#53
+2026-06-03T09:13:32+00:00 DNS-server named[265]: network unreachable resolving 'c.gtld-servers.net/AAAA/IN': 2001:500:d937::30#53
+2026-06-03T09:13:32+00:00 DNS-server named[265]: network unreachable resolving 'c.gtld-servers.net/AAAA/IN': 2001:501:b1f9::30#53
+2026-06-03T09:13:32+00:00 DNS-server named[265]: network unreachable resolving 'c.gtld-servers.net/AAAA/IN': 2001:503:231d::2:30#53
+2026-06-03T09:13:32+00:00 DNS-server named[265]: network unreachable resolving 'c.gtld-servers.net/AAAA/IN': 2001:503:83eb::30#53
+2026-06-03T09:13:32+00:00 DNS-server named[265]: network unreachable resolving 'c.gtld-servers.net/AAAA/IN': 2001:502:7094::30#53
+2026-06-03T09:13:32+00:00 DNS-server named[265]: network unreachable resolving 'c.gtld-servers.net/AAAA/IN': 2001:500:856e::30#53
+2026-06-03T09:13:32+00:00 DNS-server named[265]: network unreachable resolving 'c.gtld-servers.net/AAAA/IN': 2001:503:39c1::30#53
+2026-06-03T09:13:32+00:00 DNS-server named[265]: network unreachable resolving 'c.gtld-servers.net/AAAA/IN': 2001:502:1ca1::30#53
+2026-06-03T09:13:32+00:00 DNS-server named[265]: network unreachable resolving 'c.gtld-servers.net/AAAA/IN': 2001:503:d414::30#53
+2026-06-03T09:13:32+00:00 DNS-server named[265]: network unreachable resolving 'c.gtld-servers.net/AAAA/IN': 2001:503:d2d::30#53
+2026-06-03T09:13:32+00:00 DNS-server named[265]: network unreachable resolving 'c.gtld-servers.net/AAAA/IN': 2001:503:eea3::30#53
+2026-06-03T09:13:32+00:00 DNS-server named[265]: network unreachable resolving 'f.gtld-servers.net/AAAA/IN': 2001:503:d414::30#53
+2026-06-03T09:13:32+00:00 DNS-server named[265]: network unreachable resolving 'f.gtld-servers.net/AAAA/IN': 2001:500:856e::30#53
+2026-06-03T09:13:32+00:00 DNS-server named[265]: network unreachable resolving 'f.gtld-servers.net/AAAA/IN': 2001:503:83eb::30#53
+2026-06-03T09:13:32+00:00 DNS-server named[265]: network unreachable resolving 'f.gtld-servers.net/AAAA/IN': 2001:503:d2d::30#53
+2026-06-03T09:13:32+00:00 DNS-server named[265]: timed out resolving 'i.gtld-servers.net/A/IN': 192.168.178.1#53
+2026-06-03T09:13:32+00:00 DNS-server named[265]: network unreachable resolving 'i.gtld-servers.net/A/IN': 2001:500:a8::e#53
+2026-06-03T09:13:32+00:00 DNS-server named[265]: client @0xeb4254e63898 10.0.40.20#59294 (fonts.gstatic.com): query: fonts.gstatic.com IN HTTPS + (10.0.10.11)
+2026-06-03T09:13:32+00:00 DNS-server named[265]: client @0xeb4255180098 10.0.40.20#56927 (fonts.gstatic.com): query: fonts.gstatic.com IN A + (10.0.10.11)
+2026-06-03T09:13:32+00:00 DNS-server named[265]: client @0xeb4255183898 10.0.40.20#56927 (fonts.gstatic.com): query: fonts.gstatic.com IN AAAA + (10.0.10.11)
+2026-06-03T09:13:32+00:00 DNS-server named[265]: client @0xeb42556d1c98 10.0.40.20#51337 (accounts.google.com): query: accounts.google.com IN A + (10.0.10.11)
+2026-06-03T09:13:32+00:00 DNS-server named[265]: client @0xeb42556d3898 10.0.40.20#51337 (accounts.google.com): query: accounts.google.com IN AAAA + (10.0.10.11)
+2026-06-03T09:13:32+00:00 DNS-server named[265]: client @0xeb42556d0098 10.0.40.20#54842 (accounts.google.com): query: accounts.google.com IN HTTPS + (10.0.10.11)
+2026-06-03T09:13:32+00:00 DNS-server named[265]: network unreachable resolving 'i.gtld-servers.net/A/IN': 2001:500:125::30#53
+2026-06-03T09:13:32+00:00 DNS-server named[265]: client @0xeb4254e63898 10.0.40.20#35418 (www.google.com): query: www.google.com IN HTTPS + (10.0.10.11)
+2026-06-03T09:13:32+00:00 DNS-server named[265]: client @0xeb42548b3898 10.0.40.20#43473 (www.google.com): query: www.google.com IN A + (10.0.10.11)
+2026-06-03T09:13:32+00:00 DNS-server named[265]: client @0xeb42548b0098 10.0.40.20#43473 (www.google.com): query: www.google.com IN AAAA + (10.0.10.11)
+2026-06-03T09:13:33+00:00 DNS-server named[265]: client @0xeb42548b0098 10.0.40.20#45234 (rr3---sn-t0a7ln7d.googlevideo.com): query: rr3---sn-t0a7ln7d.googlevideo.com IN HTTPS + (10.0.10.11)
+2026-06-03T09:13:33+00:00 DNS-server named[265]: client @0xeb42556d0098 10.0.40.20#39040 (rr3---sn-t0a7ln7d.googlevideo.com): query: rr3---sn-t0a7ln7d.googlevideo.com IN A + (10.0.10.11)
+2026-06-03T09:13:33+00:00 DNS-server named[265]: client @0xeb42556d3898 10.0.40.20#39040 (rr3---sn-t0a7ln7d.googlevideo.com): query: rr3---sn-t0a7ln7d.googlevideo.com IN AAAA + (10.0.10.11)
+2026-06-03T09:13:33+00:00 DNS-server named[265]: timed out resolving 'm.gtld-servers.net/AAAA/IN': 192.168.178.1#53
+2026-06-03T09:13:33+00:00 DNS-server named[265]: network unreachable resolving 'm.gtld-servers.net/AAAA/IN': 2001:500:a8::e#53
+2026-06-03T09:13:33+00:00 DNS-server named[265]: timed out resolving 'l.gtld-servers.net/A/IN': 192.168.178.1#53
+2026-06-03T09:13:33+00:00 DNS-server named[265]: network unreachable resolving 'l.gtld-servers.net/A/IN': 2001:500:a8::e#53
+2026-06-03T09:13:33+00:00 DNS-server named[265]: network unreachable resolving 'l.gtld-servers.net/A/IN': 2001:500:124::30#53
+2026-06-03T09:13:33+00:00 DNS-server named[265]: network unreachable resolving 'l.gtld-servers.net/A/IN': 2001:500:127::30#53
+2026-06-03T09:13:33+00:00 DNS-server named[265]: network unreachable resolving 'l.gtld-servers.net/A/IN': 2001:500:125::30#53
+2026-06-03T09:13:33+00:00 DNS-server named[265]: timed out resolving 'ns1.google.com/AAAA/IN': 192.168.178.1#53
+2026-06-03T09:13:33+00:00 DNS-server named[265]: timed out resolving 'ns2.google.com/A/IN': 192.168.178.1#53
+2026-06-03T09:13:33+00:00 DNS-server named[265]: timed out resolving 'ns2.google.com/AAAA/IN': 192.168.178.1#53
+2026-06-03T09:13:33+00:00 DNS-server named[265]: network unreachable resolving 'ns1.google.com/AAAA/IN': 2001:4860:4802:32::a#53
+2026-06-03T09:13:33+00:00 DNS-server named[265]: network unreachable resolving 'ns1.google.com/AAAA/IN': 2001:4860:4802:34::a#53
+2026-06-03T09:13:33+00:00 DNS-server named[265]: network unreachable resolving 'ns2.google.com/AAAA/IN': 2001:4860:4802:32::a#53
+2026-06-03T09:13:33+00:00 DNS-server named[265]: timed out resolving 'ns1.google.com/AAAA/IN': 192.168.178.1#53
+2026-06-03T09:13:33+00:00 DNS-server named[265]: timed out resolving 'ns2.google.com/A/IN': 192.168.178.1#53
+2026-06-03T09:13:33+00:00 DNS-server named[265]: timed out resolving 'fonts.googleapis.com/HTTPS/IN': 192.168.178.1#53
+2026-06-03T09:13:33+00:00 DNS-server named[265]: network unreachable resolving 'fonts.googleapis.com/HTTPS/IN': 2001:502:8cc::30#53
+2026-06-03T09:13:33+00:00 DNS-server named[265]: network unreachable resolving 'fonts.googleapis.com/HTTPS/IN': 2001:500:d937::30#53
+2026-06-03T09:13:33+00:00 DNS-server named[265]: network unreachable resolving 'fonts.googleapis.com/HTTPS/IN': 2001:503:231d::2:30#53
+2026-06-03T09:13:33+00:00 DNS-server named[265]: network unreachable resolving 'fonts.googleapis.com/HTTPS/IN': 2001:502:7094::30#53
+2026-06-03T09:13:33+00:00 DNS-server named[265]: network unreachable resolving 'fonts.googleapis.com/HTTPS/IN': 2001:500:856e::30#53
+2026-06-03T09:13:33+00:00 DNS-server named[265]: network unreachable resolving 'fonts.googleapis.com/HTTPS/IN': 2001:503:39c1::30#53
+2026-06-03T09:13:33+00:00 DNS-server named[265]: network unreachable resolving 'fonts.googleapis.com/HTTPS/IN': 2001:502:1ca1::30#53
+2026-06-03T09:13:33+00:00 DNS-server named[265]: network unreachable resolving 'fonts.googleapis.com/HTTPS/IN': 2001:503:d2d::30#53
+2026-06-03T09:13:33+00:00 DNS-server named[265]: network unreachable resolving 'fonts.googleapis.com/HTTPS/IN': 2001:503:eea3::30#53
+2026-06-03T09:13:33+00:00 DNS-server named[265]: client @0xeb42556d3898 10.0.40.20#56174 (youtube.com): query: youtube.com IN HTTPS + (10.0.10.11)
+2026-06-03T09:13:33+00:00 DNS-server named[265]: client @0xeb42548b1c98 10.0.40.20#36089 (youtube.com): query: youtube.com IN A + (10.0.10.11)
+2026-06-03T09:13:33+00:00 DNS-server named[265]: client @0xeb42548b0098 10.0.40.20#36089 (youtube.com): query: youtube.com IN AAAA + (10.0.10.11)
+2026-06-03T09:13:33+00:00 DNS-server named[265]: client @0xeb42556d1c98 10.0.40.20#41791 (www.gstatic.com): query: www.gstatic.com IN AAAA + (10.0.10.11)
+2026-06-03T09:13:33+00:00 DNS-server named[265]: client @0xeb42556d5498 10.0.40.20#41791 (www.gstatic.com): query: www.gstatic.com IN A + (10.0.10.11)
+2026-06-03T09:13:33+00:00 DNS-server named[265]: client @0xeb4255183898 10.0.40.20#44423 (www.gstatic.com): query: www.gstatic.com IN HTTPS + (10.0.10.11)
+2026-06-03T09:13:34+00:00 DNS-server named[265]: timed out resolving 'rr3---sn-t0a7ln7d.googlevideo.com/A/IN': 192.168.178.1#53
+2026-06-03T09:13:34+00:00 DNS-server named[265]: client @0xeb4254e63898 10.0.40.20#46760 (rr3---sn-t0a7ln7d.googlevideo.com.office.lan): query: rr3---sn-t0a7ln7d.googlevideo.com.office.lan IN A + (10.0.10.11)
+2026-06-03T09:13:34+00:00 DNS-server named[265]: client @0xeb4254e61c98 10.0.40.20#46760 (rr3---sn-t0a7ln7d.googlevideo.com.office.lan): query: rr3---sn-t0a7ln7d.googlevideo.com.office.lan IN AAAA + (10.0.10.11)
+2026-06-03T09:13:34+00:00 DNS-server named[265]: client @0xeb4255183898 10.0.40.20#54471 (rr3---sn-t0a7ln7d.googlevideo.com): query: rr3---sn-t0a7ln7d.googlevideo.com IN A + (10.0.10.11)
+2026-06-03T09:13:34+00:00 DNS-server named[265]: client @0xeb4255180098 10.0.40.20#54471 (rr3---sn-t0a7ln7d.googlevideo.com): query: rr3---sn-t0a7ln7d.googlevideo.com IN AAAA + (10.0.10.11)
+2026-06-03T09:13:34+00:00 DNS-server named[265]: client @0xeb42556d0098 10.0.40.20#43358 (rr3---sn-t0a7ln7d.googlevideo.com.office.lan): query: rr3---sn-t0a7ln7d.googlevideo.com.office.lan IN A + (10.0.10.11)
+2026-06-03T09:13:34+00:00 DNS-server named[265]: client @0xeb42556d3898 10.0.40.20#43358 (rr3---sn-t0a7ln7d.googlevideo.com.office.lan): query: rr3---sn-t0a7ln7d.googlevideo.com.office.lan IN AAAA + (10.0.10.11)
+2026-06-03T09:13:34+00:00 DNS-server named[265]: client @0xeb4255180098 10.0.40.20#51657 (rr3---sn-t0a7ln7d.googlevideo.com): query: rr3---sn-t0a7ln7d.googlevideo.com IN A + (10.0.10.11)
+2026-06-03T09:13:34+00:00 DNS-server named[265]: client @0xeb4255183898 10.0.40.20#51657 (rr3---sn-t0a7ln7d.googlevideo.com): query: rr3---sn-t0a7ln7d.googlevideo.com IN AAAA + (10.0.10.11)
+2026-06-03T09:13:34+00:00 DNS-server named[265]: client @0xeb42548b0098 10.0.40.20#55025 (rr3---sn-t0a7ln7d.googlevideo.com.office.lan): query: rr3---sn-t0a7ln7d.googlevideo.com.office.lan IN A + (10.0.10.11)
+2026-06-03T09:13:34+00:00 DNS-server named[265]: client @0xeb42548b3898 10.0.40.20#55025 (rr3---sn-t0a7ln7d.googlevideo.com.office.lan): query: rr3---sn-t0a7ln7d.googlevideo.com.office.lan IN AAAA + (10.0.10.11)
+2026-06-03T09:13:34+00:00 DNS-server named[265]: client @0xeb42556d3898 10.0.40.20#53907 (rr3---sn-t0a7ln7d.googlevideo.com): query: rr3---sn-t0a7ln7d.googlevideo.com IN A + (10.0.10.11)
+2026-06-03T09:13:34+00:00 DNS-server named[265]: client @0xeb42556d0098 10.0.40.20#53907 (rr3---sn-t0a7ln7d.googlevideo.com): query: rr3---sn-t0a7ln7d.googlevideo.com IN AAAA + (10.0.10.11)
+2026-06-03T09:13:34+00:00 DNS-server named[265]: client @0xeb4255183898 10.0.40.20#53164 (rr3---sn-t0a7ln7d.googlevideo.com.office.lan): query: rr3---sn-t0a7ln7d.googlevideo.com.office.lan IN A + (10.0.10.11)
+2026-06-03T09:13:34+00:00 DNS-server named[265]: client @0xeb4255180098 10.0.40.20#53164 (rr3---sn-t0a7ln7d.googlevideo.com.office.lan): query: rr3---sn-t0a7ln7d.googlevideo.com.office.lan IN AAAA + (10.0.10.11)
+2026-06-03T09:13:34+00:00 DNS-server named[265]: client @0xeb42548b3898 10.0.40.20#58822 (rr3---sn-t0a7ln7d.googlevideo.com): query: rr3---sn-t0a7ln7d.googlevideo.com IN A + (10.0.10.11)
+2026-06-03T09:13:34+00:00 DNS-server named[265]: client @0xeb42548b0098 10.0.40.20#58822 (rr3---sn-t0a7ln7d.googlevideo.com): query: rr3---sn-t0a7ln7d.googlevideo.com IN AAAA + (10.0.10.11)
+2026-06-03T09:13:34+00:00 DNS-server named[265]: client @0xeb4255180098 10.0.40.20#34725 (rr3---sn-t0a7ln7d.googlevideo.com.office.lan): query: rr3---sn-t0a7ln7d.googlevideo.com.office.lan IN A + (10.0.10.11)
+2026-06-03T09:13:34+00:00 DNS-server named[265]: client @0xeb4255183898 10.0.40.20#34725 (rr3---sn-t0a7ln7d.googlevideo.com.office.lan): query: rr3---sn-t0a7ln7d.googlevideo.com.office.lan IN AAAA + (10.0.10.11)
+2026-06-03T09:13:34+00:00 DNS-server named[265]: client @0xeb42548b0098 10.0.40.20#44558 (safebrowsing.googleapis.com): query: safebrowsing.googleapis.com IN A + (10.0.10.11)
+2026-06-03T09:13:34+00:00 DNS-server named[265]: client @0xeb42548b3898 10.0.40.20#44558 (safebrowsing.googleapis.com): query: safebrowsing.googleapis.com IN AAAA + (10.0.10.11)
+2026-06-03T09:13:34+00:00 DNS-server named[265]: client @0xeb4254e61c98 10.0.40.20#42727 (o.pki.goog): query: o.pki.goog IN A + (10.0.10.11)
+2026-06-03T09:13:34+00:00 DNS-server named[265]: client @0xeb4254e63898 10.0.40.20#42727 (o.pki.goog): query: o.pki.goog IN AAAA + (10.0.10.11)
+2026-06-03T09:13:34+00:00 DNS-server named[265]: timed out resolving 'youtube.com/A/IN': 192.168.178.1#53
+2026-06-03T09:13:34+00:00 DNS-server named[265]: network unreachable resolving 'youtube.com/A/IN': 2001:500:d937::30#53
+2026-06-03T09:13:34+00:00 DNS-server named[265]: network unreachable resolving 'youtube.com/A/IN': 2001:503:d2d::30#53
+2026-06-03T09:13:34+00:00 DNS-server named[265]: network unreachable resolving 'youtube.com/A/IN': 2001:503:231d::2:30#53
+2026-06-03T09:13:34+00:00 DNS-server named[265]: network unreachable resolving 'youtube.com/A/IN': 2001:502:7094::30#53
+2026-06-03T09:13:48+00:00 DNS-server named[265]: client @0xeb4254e63898 10.0.40.20#44401 (services.addons.mozilla.org): query: services.addons.mozilla.org IN A + (10.0.10.11)
+2026-06-03T09:13:48+00:00 DNS-server named[265]: client @0xeb4254e61c98 10.0.40.20#44401 (services.addons.mozilla.org): query: services.addons.mozilla.org IN AAAA + (10.0.10.11)
+2026-06-03T09:13:48+00:00 DNS-server named[265]: client @0xeb4254e61c98 10.0.40.20#54421 (aus5.mozilla.org): query: aus5.mozilla.org IN A + (10.0.10.11)
+2026-06-03T09:13:48+00:00 DNS-server named[265]: client @0xeb4254e63898 10.0.40.20#54421 (aus5.mozilla.org): query: aus5.mozilla.org IN AAAA + (10.0.10.11)
+2026-06-03T09:13:48+00:00 DNS-server named[265]: client @0xeb4254e63898 10.0.40.20#58768 (ciscobinary.openh264.org): query: ciscobinary.openh264.org IN A + (10.0.10.11)
+2026-06-03T09:13:48+00:00 DNS-server named[265]: client @0xeb4254e61c98 10.0.40.20#58768 (ciscobinary.openh264.org): query: ciscobinary.openh264.org IN AAAA + (10.0.10.11)
+2026-06-03T09:13:59+00:00 DNS-server named[265]: client @0xeb4255183898 10.0.40.20#47791 (consent.youtube.com): query: consent.youtube.com IN A + (10.0.10.11)
+2026-06-03T09:13:59+00:00 DNS-server named[265]: client @0xeb42556d0098 10.0.40.20#54137 (consent.youtube.com): query: consent.youtube.com IN HTTPS + (10.0.10.11)
+2026-06-03T09:13:59+00:00 DNS-server named[265]: client @0xeb4255180098 10.0.40.20#47791 (consent.youtube.com): query: consent.youtube.com IN AAAA + (10.0.10.11)
+2026-06-03T09:13:59+00:00 DNS-server named[265]: client @0xeb4254e63898 10.0.40.20#46848 (fonts.googleapis.com): query: fonts.googleapis.com IN HTTPS + (10.0.10.11)
+2026-06-03T09:13:59+00:00 DNS-server named[265]: client @0xeb42556d0098 10.0.40.20#51586 (fonts.gstatic.com): query: fonts.gstatic.com IN HTTPS + (10.0.10.11)
+2026-06-03T09:13:59+00:00 DNS-server named[265]: client @0xeb4255180098 10.0.40.20#34661 (fonts.googleapis.com): query: fonts.googleapis.com IN A + (10.0.10.11)
+2026-06-03T09:13:59+00:00 DNS-server named[265]: client @0xeb42556d3898 10.0.40.20#48750 (fonts.gstatic.com): query: fonts.gstatic.com IN A + (10.0.10.11)
+2026-06-03T09:13:59+00:00 DNS-server named[265]: client @0xeb4255183898 10.0.40.20#34661 (fonts.googleapis.com): query: fonts.googleapis.com IN AAAA + (10.0.10.11)
+2026-06-03T09:13:59+00:00 DNS-server named[265]: client @0xeb42556d5498 10.0.40.20#48750 (fonts.gstatic.com): query: fonts.gstatic.com IN AAAA + (10.0.10.11)
+2026-06-03T09:14:00+00:00 DNS-server named[265]: client @0xeb4255183898 10.0.40.20#55487 (googleads.g.doubleclick.net): query: googleads.g.doubleclick.net IN A + (10.0.10.11)
+2026-06-03T09:14:00+00:00 DNS-server named[265]: client @0xeb4255180098 10.0.40.20#40519 (googleads.g.doubleclick.net): query: googleads.g.doubleclick.net IN HTTPS + (10.0.10.11)
+2026-06-03T09:14:00+00:00 DNS-server named[265]: client @0xeb4255181c98 10.0.40.20#55487 (googleads.g.doubleclick.net): query: googleads.g.doubleclick.net IN AAAA + (10.0.10.11)
+2026-06-03T09:14:00+00:00 DNS-server named[265]: client @0xeb42548b1c98 10.0.40.20#47268 (rr3---sn-hgn7rn7r.googlevideo.com): query: rr3---sn-hgn7rn7r.googlevideo.com IN A + (10.0.10.11)
+2026-06-03T09:14:00+00:00 DNS-server named[265]: client @0xeb42548b0098 10.0.40.20#47268 (rr3---sn-hgn7rn7r.googlevideo.com): query: rr3---sn-hgn7rn7r.googlevideo.com IN AAAA + (10.0.10.11)
+2026-06-03T09:14:00+00:00 DNS-server named[265]: client @0xeb42556d5498 10.0.40.20#40699 (rr3---sn-hgn7rn7r.googlevideo.com): query: rr3---sn-hgn7rn7r.googlevideo.com IN HTTPS + (10.0.10.11)
+2026-06-03T09:14:00+00:00 DNS-server named[265]: client @0xeb42548b0098 10.0.40.20#33298 (rr3.sn-hgn7rn7r.googlevideo.com): query: rr3.sn-hgn7rn7r.googlevideo.com IN A + (10.0.10.11)
+2026-06-03T09:14:00+00:00 DNS-server named[265]: client @0xeb42548b1c98 10.0.40.20#33298 (rr3.sn-hgn7rn7r.googlevideo.com): query: rr3.sn-hgn7rn7r.googlevideo.com IN AAAA + (10.0.10.11)
+2026-06-03T09:14:01+00:00 DNS-server named[265]: client @0xeb4254e63898 10.0.40.20#56267 (static.doubleclick.net): query: static.doubleclick.net IN A + (10.0.10.11)
+2026-06-03T09:14:01+00:00 DNS-server named[265]: client @0xeb42556d5498 10.0.40.20#40513 (static.doubleclick.net): query: static.doubleclick.net IN HTTPS + (10.0.10.11)
+2026-06-03T09:14:01+00:00 DNS-server named[265]: client @0xeb4254e61c98 10.0.40.20#56267 (static.doubleclick.net): query: static.doubleclick.net IN AAAA + (10.0.10.11)
+2026-06-03T09:14:02+00:00 DNS-server named[265]: client @0xeb42556d5498 10.0.40.20#54323 (suggestqueries-clients6.youtube.com): query: suggestqueries-clients6.youtube.com IN HTTPS + (10.0.10.11)
+2026-06-03T09:14:02+00:00 DNS-server named[265]: client @0xeb42556d3898 10.0.40.20#38100 (suggestqueries-clients6.youtube.com): query: suggestqueries-clients6.youtube.com IN A + (10.0.10.11)
+2026-06-03T09:14:02+00:00 DNS-server named[265]: client @0xeb42556d0098 10.0.40.20#38100 (suggestqueries-clients6.youtube.com): query: suggestqueries-clients6.youtube.com IN AAAA + (10.0.10.11)
+2026-06-03T09:14:03+00:00 DNS-server named[265]: client @0xeb42556d0098 10.0.40.20#48335 (encrypted-tbn3.gstatic.com): query: encrypted-tbn3.gstatic.com IN A + (10.0.10.11)
+2026-06-03T09:14:03+00:00 DNS-server named[265]: client @0xeb42556d5498 10.0.40.20#48335 (encrypted-tbn3.gstatic.com): query: encrypted-tbn3.gstatic.com IN AAAA + (10.0.10.11)
+2026-06-03T09:14:03+00:00 DNS-server named[265]: client @0xeb4255181c98 10.0.40.20#58553 (encrypted-tbn3.gstatic.com): query: encrypted-tbn3.gstatic.com IN HTTPS + (10.0.10.11)
+2026-06-03T09:14:03+00:00 DNS-server named[265]: client @0xeb4255181c98 10.0.40.20#54047 (encrypted-tbn0.gstatic.com): query: encrypted-tbn0.gstatic.com IN HTTPS + (10.0.10.11)
+2026-06-03T09:14:03+00:00 DNS-server named[265]: client @0xeb4255180098 10.0.40.20#52476 (encrypted-tbn0.gstatic.com): query: encrypted-tbn0.gstatic.com IN A + (10.0.10.11)
+2026-06-03T09:14:03+00:00 DNS-server named[265]: client @0xeb4255183898 10.0.40.20#52476 (encrypted-tbn0.gstatic.com): query: encrypted-tbn0.gstatic.com IN AAAA + (10.0.10.11)
+2026-06-03T09:14:03+00:00 DNS-server named[265]: client @0xeb42548b1c98 10.0.40.20#38879 (encrypted-tbn1.gstatic.com): query: encrypted-tbn1.gstatic.com IN A + (10.0.10.11)
+2026-06-03T09:14:03+00:00 DNS-server named[265]: client @0xeb4254e63898 10.0.40.20#59866 (encrypted-tbn1.gstatic.com): query: encrypted-tbn1.gstatic.com IN HTTPS + (10.0.10.11)
+2026-06-03T09:14:03+00:00 DNS-server named[265]: client @0xeb42548b0098 10.0.40.20#38879 (encrypted-tbn1.gstatic.com): query: encrypted-tbn1.gstatic.com IN AAAA + (10.0.10.11)
+2026-06-03T09:14:06+00:00 DNS-server named[265]: client @0xeb42548b0098 10.0.40.20#34050 (yt3.ggpht.com): query: yt3.ggpht.com IN A + (10.0.10.11)
+2026-06-03T09:14:06+00:00 DNS-server named[265]: client @0xeb42548b1c98 10.0.40.20#34050 (yt3.ggpht.com): query: yt3.ggpht.com IN AAAA + (10.0.10.11)
+2026-06-03T09:14:06+00:00 DNS-server named[265]: client @0xeb4255183898 10.0.40.20#42536 (yt3.ggpht.com): query: yt3.ggpht.com IN HTTPS + (10.0.10.11)
+2026-06-03T09:14:06+00:00 DNS-server named[265]: client @0xeb4254e63898 10.0.40.20#34344 (rr2---sn-8p2oxu-15bz.googlevideo.com): query: rr2---sn-8p2oxu-15bz.googlevideo.com IN HTTPS + (10.0.10.11)
+2026-06-03T09:14:06+00:00 DNS-server named[265]: client @0xeb42556d0098 10.0.40.20#44607 (rr2---sn-8p2oxu-15bz.googlevideo.com): query: rr2---sn-8p2oxu-15bz.googlevideo.com IN A + (10.0.10.11)
+2026-06-03T09:14:06+00:00 DNS-server named[265]: client @0xeb42556d5498 10.0.40.20#44607 (rr2---sn-8p2oxu-15bz.googlevideo.com): query: rr2---sn-8p2oxu-15bz.googlevideo.com IN AAAA + (10.0.10.11)
+2026-06-03T09:14:06+00:00 DNS-server named[265]: client @0xeb42548b1c98 10.0.40.20#45977 (rr2.sn-8p2oxu-15bz.googlevideo.com): query: rr2.sn-8p2oxu-15bz.googlevideo.com IN A + (10.0.10.11)
+2026-06-03T09:14:06+00:00 DNS-server named[265]: client @0xeb42548b0098 10.0.40.20#45977 (rr2.sn-8p2oxu-15bz.googlevideo.com): query: rr2.sn-8p2oxu-15bz.googlevideo.com IN AAAA + (10.0.10.11)
+2026-06-03T09:14:08+00:00 DNS-server named[265]: client @0xeb4255183898 10.0.40.20#59221 (tpc.googlesyndication.com): query: tpc.googlesyndication.com IN HTTPS + (10.0.10.11)
+2026-06-03T09:14:08+00:00 DNS-server named[265]: client @0xeb4254e63898 10.0.40.20#41499 (tpc.googlesyndication.com): query: tpc.googlesyndication.com IN A + (10.0.10.11)
+2026-06-03T09:14:08+00:00 DNS-server named[265]: client @0xeb4254e61c98 10.0.40.20#41499 (tpc.googlesyndication.com): query: tpc.googlesyndication.com IN AAAA + (10.0.10.11)
+2026-06-03T09:14:08+00:00 DNS-server named[265]: client @0xeb42548b0098 10.0.40.20#58865 (i.ytimg.com): query: i.ytimg.com IN A + (10.0.10.11)
+2026-06-03T09:14:08+00:00 DNS-server named[265]: client @0xeb4255183898 10.0.40.20#37300 (i.ytimg.com): query: i.ytimg.com IN HTTPS + (10.0.10.11)
+2026-06-03T09:14:08+00:00 DNS-server named[265]: client @0xeb42548b1c98 10.0.40.20#58865 (i.ytimg.com): query: i.ytimg.com IN AAAA + (10.0.10.11)
+2026-06-03T09:14:08+00:00 DNS-server named[265]: client @0xeb42548b1c98 10.0.40.20#50395 (pagead2.googlesyndication.com): query: pagead2.googlesyndication.com IN HTTPS + (10.0.10.11)
+2026-06-03T09:14:08+00:00 DNS-server named[265]: client @0xeb42548b0098 10.0.40.20#33015 (pagead2.googlesyndication.com): query: pagead2.googlesyndication.com IN A + (10.0.10.11)
+2026-06-03T09:14:08+00:00 DNS-server named[265]: client @0xeb42548b3898 10.0.40.20#33015 (pagead2.googlesyndication.com): query: pagead2.googlesyndication.com IN AAAA + (10.0.10.11)
+2026-06-03T09:14:08+00:00 DNS-server named[265]: client @0xeb42556d0098 10.0.40.20#49328 (i2.ytimg.com): query: i2.ytimg.com IN A + (10.0.10.11)
+2026-06-03T09:14:08+00:00 DNS-server named[265]: client @0xeb42556d5498 10.0.40.20#49328 (i2.ytimg.com): query: i2.ytimg.com IN AAAA + (10.0.10.11)
+2026-06-03T09:14:08+00:00 DNS-server named[265]: client @0xeb4254e63898 10.0.40.20#45692 (i2.ytimg.com): query: i2.ytimg.com IN HTTPS + (10.0.10.11)
+2026-06-03T09:14:14+00:00 DNS-server named[265]: client @0xeb42548b3898 10.0.40.20#53296 (i1.ytimg.com): query: i1.ytimg.com IN HTTPS + (10.0.10.11)
+2026-06-03T09:14:14+00:00 DNS-server named[265]: client @0xeb4254e63898 10.0.40.20#38391 (i1.ytimg.com): query: i1.ytimg.com IN A + (10.0.10.11)
+2026-06-03T09:14:14+00:00 DNS-server named[265]: client @0xeb4254e61c98 10.0.40.20#38391 (i1.ytimg.com): query: i1.ytimg.com IN AAAA + (10.0.10.11)
+2026-06-03T09:14:14+00:00 DNS-server named[265]: client @0xeb42556d5498 10.0.40.20#42415 (pagead2.googlesyndication.com): query: pagead2.googlesyndication.com IN HTTPS + (10.0.10.11)
+2026-06-03T09:14:14+00:00 DNS-server named[265]: client @0xeb4255183898 10.0.40.20#41796 (pagead2.googlesyndication.com): query: pagead2.googlesyndication.com IN A + (10.0.10.11)
+2026-06-03T09:14:14+00:00 DNS-server named[265]: client @0xeb4255181c98 10.0.40.20#41796 (pagead2.googlesyndication.com): query: pagead2.googlesyndication.com IN AAAA + (10.0.10.11)
+2026-06-03T09:14:14+00:00 DNS-server named[265]: client @0xeb42548b3898 10.0.40.20#53296 (ad.doubleclick.net): query: ad.doubleclick.net IN A + (10.0.10.11)
+2026-06-03T09:14:14+00:00 DNS-server named[265]: client @0xeb42548b1c98 10.0.40.20#53296 (ad.doubleclick.net): query: ad.doubleclick.net IN AAAA + (10.0.10.11)
+2026-06-03T09:14:14+00:00 DNS-server named[265]: client @0xeb42548b0098 10.0.40.20#34083 (ad.doubleclick.net): query: ad.doubleclick.net IN HTTPS + (10.0.10.11)
+2026-06-03T09:14:14+00:00 DNS-server named[265]: client @0xeb4255181c98 10.0.40.20#54738 (ade.googlesyndication.com): query: ade.googlesyndication.com IN A + (10.0.10.11)
+2026-06-03T09:14:14+00:00 DNS-server named[265]: client @0xeb4255183898 10.0.40.20#54738 (ade.googlesyndication.com): query: ade.googlesyndication.com IN AAAA + (10.0.10.11)
+2026-06-03T09:14:14+00:00 DNS-server named[265]: client @0xeb4255180098 10.0.40.20#33250 (ade.googlesyndication.com): query: ade.googlesyndication.com IN HTTPS + (10.0.10.11)
+2026-06-03T09:14:18+00:00 DNS-server named[265]: client @0xeb42556d5498 10.0.40.20#49933 (detectportal.firefox.com): query: detectportal.firefox.com IN A + (10.0.10.11)
+2026-06-03T09:14:18+00:00 DNS-server named[265]: client @0xeb42556d0098 10.0.40.20#49933 (detectportal.firefox.com): query: detectportal.firefox.com IN AAAA + (10.0.10.11)
+2026-06-03T09:14:18+00:00 DNS-server named[265]: client @0xeb4255181c98 10.0.40.20#60104 (ipv4only.arpa): query: ipv4only.arpa IN A + (10.0.10.11)
+2026-06-03T09:14:18+00:00 DNS-server named[265]: client @0xeb4255180098 10.0.40.20#60104 (ipv4only.arpa): query: ipv4only.arpa IN AAAA + (10.0.10.11)
+2026-06-03T09:14:18+00:00 DNS-server named[265]: client @0xeb4254e63898 10.0.40.20#36388 (detectportal.firefox.com): query: detectportal.firefox.com IN A + (10.0.10.11)
+2026-06-03T09:14:18+00:00 DNS-server named[265]: client @0xeb4254e61c98 10.0.40.20#36388 (detectportal.firefox.com): query: detectportal.firefox.com IN AAAA + (10.0.10.11)
+2026-06-03T09:14:27+00:00 DNS-server kernel: [  458.931929] eth0: left promiscuous mode
+2026-06-03T09:14:27+00:00 DNS-server named[265]: client @0xeb42548b1c98 10.0.40.20#42287 (www.google.hr): query: www.google.hr IN HTTPS + (10.0.10.11)
+2026-06-03T09:14:27+00:00 DNS-server named[265]: client @0xeb42548b3898 10.0.40.20#56417 (www.google.hr): query: www.google.hr IN A + (10.0.10.11)
+2026-06-03T09:14:27+00:00 DNS-server named[265]: client @0xeb42548b0098 10.0.40.20#56417 (www.google.hr): query: www.google.hr IN AAAA + (10.0.10.11)
+2026-06-03T09:14:38+00:00 DNS-server named[265]: client @0xeb42556d0098 10.0.40.20#52558 (www.youtube.com): query: www.youtube.com IN A + (10.0.10.11)
+2026-06-03T09:14:38+00:00 DNS-server named[265]: client @0xeb42556d5498 10.0.40.20#52558 (www.youtube.com): query: www.youtube.com IN AAAA + (10.0.10.11)
+2026-06-03T09:14:38+00:00 DNS-server named[265]: client @0xeb4255180098 10.0.40.20#52304 (youtube-ui.l.google.com): query: youtube-ui.l.google.com IN A + (10.0.10.11)
+2026-06-03T09:14:38+00:00 DNS-server named[265]: client @0xeb4255181c98 10.0.40.20#52304 (youtube-ui.l.google.com): query: youtube-ui.l.google.com IN AAAA + (10.0.10.11)
+2026-06-03T09:14:46+00:00 DNS-server kernel: [  478.278844] eth0: left promiscuous mode
+2026-06-03T09:14:54+00:00 DNS-server named[265]: client @0xeb42548b3898 10.0.40.20#55322 (i.ytimg.com): query: i.ytimg.com IN A + (10.0.10.11)
+2026-06-03T09:14:54+00:00 DNS-server named[265]: client @0xeb42548b0098 10.0.40.20#55322 (i.ytimg.com): query: i.ytimg.com IN AAAA + (10.0.10.11)
+2026-06-03T09:15:07+00:00 DNS-server named[265]: client @0xeb4254e61c98 10.0.40.20#51526 (rr2---sn-8p2oxu-15bz.googlevideo.com): query: rr2---sn-8p2oxu-15bz.googlevideo.com IN A + (10.0.10.11)
+2026-06-03T09:15:07+00:00 DNS-server named[265]: client @0xeb4254e63898 10.0.40.20#51526 (rr2---sn-8p2oxu-15bz.googlevideo.com): query: rr2---sn-8p2oxu-15bz.googlevideo.com IN AAAA + (10.0.10.11)
+2026-06-03T09:15:07+00:00 DNS-server named[265]: client @0xeb4255181c98 10.0.40.20#48797 (rr2.sn-8p2oxu-15bz.googlevideo.com): query: rr2.sn-8p2oxu-15bz.googlevideo.com IN A + (10.0.10.11)
+2026-06-03T09:15:07+00:00 DNS-server named[265]: client @0xeb4255180098 10.0.40.20#48797 (rr2.sn-8p2oxu-15bz.googlevideo.com): query: rr2.sn-8p2oxu-15bz.googlevideo.com IN AAAA + (10.0.10.11)
+2026-06-03T09:15:42+00:00 DNS-server named[265]: client @0xeb4255181c98 10.0.40.20#59808 (aus5.mozilla.org): query: aus5.mozilla.org IN A + (10.0.10.11)
+2026-06-03T09:15:42+00:00 DNS-server named[265]: client @0xeb4255180098 10.0.40.20#59808 (aus5.mozilla.org): query: aus5.mozilla.org IN AAAA + (10.0.10.11)
+2026-06-03T09:15:42+00:00 DNS-server named[265]: client @0xeb4254e61c98 10.0.40.20#47906 (content-signature-2.cdn.mozilla.net): query: content-signature-2.cdn.mozilla.net IN A + (10.0.10.11)
+2026-06-03T09:15:42+00:00 DNS-server named[265]: client @0xeb4254e63898 10.0.40.20#47906 (content-signature-2.cdn.mozilla.net): query: content-signature-2.cdn.mozilla.net IN AAAA + (10.0.10.11)
+2026-06-03T09:15:53+00:00 DNS-server named[265]: client @0xeb42548b3898 10.0.40.20#51056 (www.youtube.com): query: www.youtube.com IN A + (10.0.10.11)
+2026-06-03T09:15:53+00:00 DNS-server named[265]: client @0xeb42548b0098 10.0.40.20#51056 (www.youtube.com): query: www.youtube.com IN AAAA + (10.0.10.11)
+2026-06-03T09:15:53+00:00 DNS-server named[265]: client @0xeb4254e63898 10.0.40.20#52840 (youtube-ui.l.google.com): query: youtube-ui.l.google.com IN A + (10.0.10.11)
+2026-06-03T09:15:53+00:00 DNS-server named[265]: client @0xeb4254e61c98 10.0.40.20#52840 (youtube-ui.l.google.com): query: youtube-ui.l.google.com IN AAAA + (10.0.10.11)
+2026-06-03T09:16:00+00:00 DNS-server named[265]: client @0xeb4255180098 10.0.40.20#44640 (googleads.g.doubleclick.net): query: googleads.g.doubleclick.net IN A + (10.0.10.11)
+2026-06-03T09:16:00+00:00 DNS-server named[265]: client @0xeb4255181c98 10.0.40.20#44640 (googleads.g.doubleclick.net): query: googleads.g.doubleclick.net IN AAAA + (10.0.10.11)
+2026-06-03T09:17:15+00:00 DNS-server named[265]: client @0xeb4254e61c98 10.0.40.20#45366 (www.youtube.com): query: www.youtube.com IN A + (10.0.10.11)
+2026-06-03T09:17:15+00:00 DNS-server named[265]: client @0xeb4254e63898 10.0.40.20#45366 (www.youtube.com): query: www.youtube.com IN AAAA + (10.0.10.11)
+2026-06-03T09:17:15+00:00 DNS-server named[265]: client @0xeb4255181c98 10.0.40.20#46996 (youtube-ui.l.google.com): query: youtube-ui.l.google.com IN A + (10.0.10.11)
+2026-06-03T09:17:15+00:00 DNS-server named[265]: client @0xeb4255180098 10.0.40.20#46996 (youtube-ui.l.google.com): query: youtube-ui.l.google.com IN AAAA + (10.0.10.11)
+2026-06-03T09:18:19+00:00 DNS-server named[265]: client @0xeb42548b0098 10.0.40.20#41864 (ads.mozilla.org): query: ads.mozilla.org IN A + (10.0.10.11)
+2026-06-03T09:18:19+00:00 DNS-server named[265]: client @0xeb42548b3898 10.0.40.20#41864 (ads.mozilla.org): query: ads.mozilla.org IN AAAA + (10.0.10.11)
+2026-06-03T09:18:19+00:00 DNS-server named[265]: client @0xeb42548b1c98 10.0.40.20#57290 (ads.mozilla.org): query: ads.mozilla.org IN A + (10.0.10.11)
+2026-06-03T09:19:58+00:00 DNS-server named[265]: client @0xeb42548b3898 10.0.40.20#38937 (www.youtube.com): query: www.youtube.com IN A + (10.0.10.11)
+2026-06-03T09:19:58+00:00 DNS-server named[265]: client @0xeb42548b1c98 10.0.40.20#38937 (www.youtube.com): query: www.youtube.com IN AAAA + (10.0.10.11)
+2026-06-03T09:19:58+00:00 DNS-server named[265]: client @0xeb4255180098 10.0.40.20#45209 (youtube-ui.l.google.com): query: youtube-ui.l.google.com IN A + (10.0.10.11)
+2026-06-03T09:19:58+00:00 DNS-server named[265]: client @0xeb4255181c98 10.0.40.20#45209 (youtube-ui.l.google.com): query: youtube-ui.l.google.com IN AAAA + (10.0.10.11)
