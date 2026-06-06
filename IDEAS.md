@@ -2,7 +2,7 @@ Something inbetween a TODO list and an ideas list
 
 Current ideas:
 - MAC spoof, flood
-- ARP poison, spoof, smurf
+- ARP spoof, smurf
 - IP spoof, smurf
 - SYN flood, TCP session hijack
 - Network scanner, different UDP or TCP port scanner
