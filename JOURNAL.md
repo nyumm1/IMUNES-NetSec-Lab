@@ -30,3 +30,6 @@ Finally uploaded the ARP scan tool! It was not that hard to build because, as I 
 
 05/06/2026
 Ended up making a TCP syn port scanner xD It works well and I am very happy with the end product! I definitely learned a lot in terms of how nmap works and how port scanning works! I also updated the IDEAS file with a separate list of the things I did and a separate list of ideas. Still not sure if scanners can go under attacks but okay. Next up might be something DNS related or maybe something like ARP smurf? Donno, will figure out along the way :)
+
+08/06/2026 (again typed on the 9th oh well)
+I finished up a basic ARP spoofer that actually works! I'm not too happy as I can see the duplicate usage of <gatewayIP> but hey, I actually saw all of the data transferred from PC1 through PC2... It's crazy to imagine that something so simple as 60ish lines of Python can actually show all of the packets transmitted. Thank the engineers for encryption! I'm quite sure this code can also be made into a sort of DoS tool, but that is not really a priority as of now. Plan is to roll this out on the 9th or 10th and then try and make a full Network/Subnet Mapper with a whole lot of options and uses as that is something I'm really interested in making! 
