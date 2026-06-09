@@ -1,4 +1,4 @@
-Journal
+# Journal
 
 19/05/2026
 Start of this whole setup, I feel like the amount of things that need to be done require a dedicated journal to keep track!
