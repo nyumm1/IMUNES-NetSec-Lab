@@ -1,0 +1,2 @@
+2026-06-09T20:20:40+00:00 MGMT-pc1 rsyslogd: [origin software="rsyslogd" swVersion="8.2302.0" x-pid="121" x-info="https://www.rsyslog.com"] start
+2026-06-09T20:21:33+00:00 MGMT-pc1 kernel: [  198.526916] eth0: entered promiscuous mode

@@ -1,0 +1,5 @@
+2026-06-09T20:21:34+00:00 IT-pc1 kernel: [  199.240608] NET: Registered PF_BLUETOOTH protocol family
+2026-06-09T20:21:34+00:00 IT-pc1 kernel: [  199.240610] Bluetooth: HCI device and connection manager initialized
+2026-06-09T20:21:34+00:00 IT-pc1 kernel: [  199.240618] Bluetooth: HCI socket layer initialized
+2026-06-09T20:21:34+00:00 IT-pc1 kernel: [  199.240619] Bluetooth: L2CAP socket layer initialized
+2026-06-09T20:21:34+00:00 IT-pc1 kernel: [  199.240633] Bluetooth: SCO socket layer initialized

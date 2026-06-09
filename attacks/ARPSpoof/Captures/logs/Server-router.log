@@ -1,0 +1,2 @@
+2026-06-09T20:21:47+00:00 Server-router kernel: [  212.806559] eth0: entered promiscuous mode
+2026-06-09T20:21:47+00:00 Server-router rsyslogd: action 'action-8-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2302.0 try https://www.rsyslog.com/e/2359 ]
