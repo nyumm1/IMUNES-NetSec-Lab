@@ -33,3 +33,6 @@ Ended up making a TCP syn port scanner xD It works well and I am very happy with
 
 08/06/2026 (again typed on the 9th oh well)
 I finished up a basic ARP spoofer that actually works! I'm not too happy as I can see the duplicate usage of <gatewayIP> but hey, I actually saw all of the data transferred from PC1 through PC2... It's crazy to imagine that something so simple as 60ish lines of Python can actually show all of the packets transmitted. Thank the engineers for encryption! I'm quite sure this code can also be made into a sort of DoS tool, but that is not really a priority as of now. Plan is to roll this out on the 9th or 10th and then try and make a full Network/Subnet Mapper with a whole lot of options and uses as that is something I'm really interested in making! 
+
+09/06/2026
+Finished up the captures, the python file and the README of the arp spoofer. Very happy with how it turned out and the data in the pcapngs that I got really helped me learn a ton, now I have to think about what to do next as I both want to continue exposing how hilariously insecure ARP is and also want to try and make a network scanner... To which I don't even know what needs to be done. Might try and make more options on the port scanner (UDP scan, TCP rst scan and such) to make it more usable for the network scanner.
