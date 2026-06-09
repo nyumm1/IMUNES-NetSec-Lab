@@ -9,9 +9,9 @@ Current ideas:
 - DDos, DNS tunneling, DNS cache poison or spoof
 - C2 Server connection with a type of tunneling for commands, the "C2 server" in question will just be my RaspberryPI
 - Rogue DHCP if I ever get DHCP to work on the whole network
-- Some form of MITM
+- some form of DoS, doesn't even have to be DDoS
 
 Currently finished:
 - ARP scan
 - TCP SYN port scan
-- ARP Spoof
+- ARP Spoof (a form of MITM)
