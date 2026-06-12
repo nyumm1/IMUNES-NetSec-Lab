@@ -25,7 +25,7 @@ from HR-pc2 it produced these outputs:
 - 23 OPEN
 
 and with the scan of:
-- python 3 portScan.py 10.0.10.11
+- python3 portScan.py 10.0.10.11
 from HR-pc2 it produced these outputs:
 - 53 OPEN
 - 111 OPEN
