@@ -1,7 +1,7 @@
 Something inbetween a TODO list and an ideas list
 
 Current ideas:
-- MAC spoof, flood
+- MAC flood
 - ARP smurf
 - IP spoof, smurf
 - SYN flood, TCP session hijack
