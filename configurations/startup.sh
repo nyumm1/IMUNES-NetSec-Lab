@@ -55,6 +55,7 @@ echo "[2/4] Syslog server startup"
 himage Syslog mkdir -p /var/log/remote
 hcp $LABDIR/Syslog/rsyslog-server.conf Syslog:/tmp/rsyslog-server.conf
 himage Syslog sh -c 'cat /tmp/rsyslog-server.conf >> /etc/rsyslog.conf'
+himage Syslog pkill -9 rsyslogd
 himage Syslog rsyslogd
 echo "Syslog server started @10.0.50.10"
 
@@ -71,7 +72,14 @@ for node in $NODES; do
 	if [ "$INTERNET" = true ]; then
 		himage $node sh -c 'echo "nameserver 8.8.8.8" >> /etc/resolv.conf'
 	fi
-	himage $node sh -c 'echo "*.* @10.0.50.10:514" >> /etc/rsyslog.conf'
+
+	hcp $LABDIR/Syslog/rsyslog-client.conf $node:/tmp/rsyslog-client.conf
+	himage $node sh -c 'cat /tmp/rsyslog-client.conf >> /etc/rsyslog.conf'
+
+	hcp $LABDIR/Syslog/logger-client.sh $node:/tmp/logger-client.sh
+	himage $node sh -c 'cat /tmp/logger-client.sh >> /etc/bash.bashrc'
+
+	himage $node pkill -9 rsyslogd 2>/dev/null
 	himage $node rsyslogd 2>/dev/null
 done
 echo "Syslog nodes working!"
